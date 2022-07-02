@@ -20,12 +20,14 @@ sections:
   templates:
   - blog-post
 - type: directory
-  path: src/pages/about
-  label: About
+  path: src/pages
+  label: Pages
   create: documents
-  match: "*"
+  match: "**/*"
+  exclude: blog/*
   new_doc_ext: md
   templates:
+  - home
   - about
 - type: document
   path: src/pages/products/index.md

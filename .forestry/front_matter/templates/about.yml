@@ -16,4 +16,5 @@ fields:
   name: title
   label: Title
 pages:
+- src/pages/about/about-hghjghjg.md
 - src/pages/about/about-the-trust.md

@@ -6,6 +6,9 @@ fields:
   name: templateKey
   label: templateKey
   hidden: true
+  default: about-page
+  config:
+    required: true
 - type: text
   name: path
   label: Path

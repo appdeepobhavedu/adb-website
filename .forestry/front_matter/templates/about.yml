@@ -1,0 +1,14 @@
+---
+label: About
+hide_body: false
+fields:
+- type: text
+  name: templateKey
+  label: templateKey
+  hidden: true
+- type: text
+  name: path
+  label: Path
+- type: text
+  name: title
+  label: Title

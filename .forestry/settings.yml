@@ -17,6 +17,8 @@ sections:
   match: "**/*"
   exclude: index.js
   new_doc_ext: md
+  templates:
+  - blog-post
 - type: directory
   path: src/pages/about
   label: About

@@ -7,7 +7,7 @@ fields:
   label: templateKey
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
   label: date

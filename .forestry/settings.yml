@@ -8,9 +8,6 @@ sections:
   path: src/pages/index.md
   label: Home
 - type: document
-  path: src/pages/about/index.md
-  label: About
-- type: document
   path: src/pages/blog/index.js
   label: Blog
 - type: directory
@@ -20,6 +17,13 @@ sections:
   match: "**/*"
   exclude: index.js
   new_doc_ext: md
+- type: directory
+  path: src/pages/about
+  label: About
+  create: all
+  match: "*"
+  templates:
+  - About
 - type: document
   path: src/pages/products/index.md
   label: Products

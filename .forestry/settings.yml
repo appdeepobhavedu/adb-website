@@ -20,10 +20,11 @@ sections:
 - type: directory
   path: src/pages/about
   label: About
-  create: all
+  create: documents
   match: "*"
+  new_doc_ext: ".md"
   templates:
-  - About
+  - about
 - type: document
   path: src/pages/products/index.md
   label: Products

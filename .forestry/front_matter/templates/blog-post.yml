@@ -12,19 +12,24 @@ fields:
   label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
+  default: now
 - type: boolean
   name: featuredpost
-  label: featuredpost
+  label: Is Featured Post
 - type: file
   name: featuredimage
-  label: featuredimage
+  label: Featured Image
 - type: textarea
   name: description
-  label: description
+  label: Description
 - type: list
   name: tags
-  label: tags
+  label: Tags
+  config:
+    use_select: false
+    source:
+      type: simple
 pages:
 - src/pages/blog/test-1.md
 - src/pages/blog/test-2.md

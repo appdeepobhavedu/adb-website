@@ -27,3 +27,4 @@ fields:
   label: tags
 pages:
 - src/pages/blog/test-1.md
+- src/pages/blog/test-2.md

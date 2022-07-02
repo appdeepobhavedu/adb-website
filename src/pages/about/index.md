@@ -4,22 +4,22 @@ path: "/about"
 title: About College
 
 ---
-### About The Trust
+### About The College
 
-App Deepo Bhav Educational and Health Charitable Trust was founded in 2017 by a group of passionate changemakers. With the belief in ‘excellence, service and integrity’ App Deepo Bhav has its strong foundations rooted. 
+Medical infrastructure is one of the booming problems of today. The onset of Covid-19 exposed the lack of medical infrastructure in our country. The only way to solve this problem from the grassroots is access to proper medical education. We at App Deepo Bhav are aimed to solve this massive problem. 
 
-Over the years, App Deepo Bhav Educational & Health Charitable Trust has evolved to be of extreme community service. The trust has been continuously working hard to provide free health care services to people in the form of organising health check-up camps and treatments. The trust works with extreme rigour and passion to help impact the lives of people every day. 
+With competent personnel from the medical sector, the college is aimed to foster holistic education to its students. The college is entrusted with the responsibility of not only developing the skillset of its students but also instilling the ability to lead in their future organisations. 
 
-Apart from health care, the trust has been actively conducting various food drives and donations for the underprivileged. The academic help of the trust doesn’t end at education, the trust also sponsors stationery and study materials for underprivileged students. 
+Academic development is crucial but we understand it is not the only thing that students will require in their career. App Deepo Bhav presents a plethora of extra curricular activities for the overall development of each student. 
 
-The trust consists of visionaries who want to revolutionise the health and education sectors of India. With the ongoing activities conducted by the trust in the education and health sector, the trust realised the importance of medical and paramedical colleges in Madhubani. It was the need of the hour. 
+Gratitude is an important trait for any person. The students at App Deepo Bhav are presented with many opportunities where they can give back to the society and help the needy. 
 
-With this feeling App Deepo Bhav was born. 
+World class education needs world class infrastructure. App Deepo Bhav College has a beautiful campus that is spread over 5 acres of land. With AC classrooms, massive library, lovely canteen and many more facilities the college is well equipped to serve all the professional needs of an individual. 
 
-India has almost 14 lakh students who aspire to study medicine. To serve 14 lakh students, we have roughly 550 medical colleges, this clear gap in the sector and lack of infrastructure stops thousands of students every year from serving the country in the field of medicine. 
+The premise also contains a wonderful hostel facility for the visiting students. 
 
-App Deepo Bhav is an institution that aims to contribute to the development of the youth by providing them with in demand skills. The skillset will enable the youth to continue serving society for many years to come. 
+The Chairman, Vice Chairman and the Directors are dedicated to not only educate the youth but truly help them in any way possible. Understanding the problem of travel in the area, the college also provides transportation services to the local students. 
 
-The trust also understands that the mere establishment of a college does not contribute to the upliftment of society. Therefore, the trust will continue its drives, camps and donations to help the underprivileged. The passion, commitment and discipline of the members of the trust are what drive them to keep developing a prosperous society for a better tomorrow. 
+With well qualified and experienced faculties, the college compromises nothing on quality of the education imparted. The student to teacher ratio in each class is fairly distributed with leaving enough time for each student to get their doubts clarified. 
 
-App Deepo Bhav Educational and Health Charitable Trust can’t wait to see the day, every family in India has rightful access to medicine and education.
+The placement cell forms a critical part of each college. App Deepo Bhav has tie ups with many hospitals for practical professional experience for students. Post the completion of the course, the transition from the academic world to the professional world is seamless giving students a clear path to leave a greater impact in the society.

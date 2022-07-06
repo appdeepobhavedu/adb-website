@@ -8,6 +8,14 @@ sections:
   path: src/pages/index.md
   label: Home
 - type: document
+  path: src/pages/about/index.md
+  label: About college
+  match: "**/*"
+- type: document
+  path: src/pages/about-trust/index.md
+  label: About Trust
+  match: "**/*"
+- type: document
   path: src/pages/blog/index.js
   label: Blog
 - type: directory
@@ -19,16 +27,6 @@ sections:
   new_doc_ext: md
   templates:
   - blog-post
-- type: directory
-  path: src/pages
-  label: Pages
-  create: all
-  match: "**/*"
-  exclude: src/pages/blog/*, src/pages/products/*, src/pages/index.md
-  new_doc_ext: md
-  templates:
-  - home
-  - about
 - type: document
   path: src/pages/products/index.md
   label: Products

@@ -15,6 +15,3 @@ fields:
 - type: text
   name: title
   label: Title
-pages:
-- src/pages/about-trust/index.md
-- src/pages/about/index.md

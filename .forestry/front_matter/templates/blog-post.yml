@@ -30,7 +30,3 @@ fields:
     use_select: false
     source:
       type: simple
-pages:
-- src/pages/blog/test-1.md
-- src/pages/blog/test-2.md
-- src/pages/blog/test-3.md

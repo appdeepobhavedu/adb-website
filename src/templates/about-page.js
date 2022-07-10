@@ -5,12 +5,15 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, banner_image, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
-
+  console.log("banner_image", banner_image)
   return (
     <section className="section section--gradient">
-    <section className="breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay" style={{ background: `url(../components/img/slider/slider-1.jpg)`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} >
+    <section
+      className="breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay"
+      style={{ background: `url(${banner_image.substring(7)})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
+    >
        <div className="container">
           <div className="row">
              <div className="col-xxl-12">
@@ -39,6 +42,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  banner_image: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
@@ -51,6 +55,7 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        banner_image={post.frontmatter.banner_image}
         content={post.html}
       />
     </Layout>
@@ -68,7 +73,8 @@ export const aboutPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title
+        title,
+        banner_image
       }
     }
   }

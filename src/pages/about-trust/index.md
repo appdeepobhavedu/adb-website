@@ -2,6 +2,7 @@
 templateKey: about-page
 path: "/about-trust"
 title: About The Trust
+banner_image: "/static/uploads/slider-1.jpg"
 
 ---
 ### About The Trust

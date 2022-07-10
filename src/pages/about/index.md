@@ -2,6 +2,7 @@
 templateKey: about-page
 path: "/about"
 title: About College
+banner_image: "/static/uploads/slider-2.jpg"
 
 ---
 ### About The College

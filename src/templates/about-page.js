@@ -10,6 +10,17 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
   return (
     <section className="section section--gradient">
+    <section className="breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay" style={{ background: `url(../components/img/slider/slider-1.jpg)`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} >
+       <div className="container">
+          <div className="row">
+             <div className="col-xxl-12">
+                <div className="breadcrumb__content text-center p-relative z-index-1">
+                   <h3 className="breadcrumb__title">{title}</h3>
+                </div>
+             </div>
+          </div>
+       </div>
+      </section>
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">

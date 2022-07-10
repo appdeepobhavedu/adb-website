@@ -20,3 +20,6 @@ fields:
   config:
     maxSize: 64
   label: Banner Image
+pages:
+- src/pages/about-trust/index.md
+- src/pages/about/index.md

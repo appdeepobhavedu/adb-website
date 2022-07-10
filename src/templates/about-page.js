@@ -11,7 +11,7 @@ export const AboutPageTemplate = ({ title, banner_image, content, contentCompone
   return (
     <section className="section section--gradient">
     <section
-      className="breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay"
+      className="breadcrumb__area include-bg pt-150 pb-150 mb-100 breadcrumb__overlay"
       style={{ background: `url(${banner_image.substring(7)})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
     >
        <div className="container">

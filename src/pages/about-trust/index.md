@@ -2,7 +2,7 @@
 templateKey: about-page
 path: "/about-trust"
 title: About The Trust
-banner_image: "/static/uploads/slider-1.jpg"
+banner_image: "/static/img/slider-1.jpg"
 
 ---
 App Deepo Bhav Educational and Health Charitable Trust was founded in 2017 by a group of passionate changemakers. With the belief of ‘excellence, service and integrity’ App Deepo Bhav has its strong foundations rooted.

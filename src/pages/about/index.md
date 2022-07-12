@@ -2,7 +2,7 @@
 templateKey: about-page
 path: "/about"
 title: About College
-banner_image: "/static/img/slider-2.jpg"
+banner_image: "/static/img/about.jpeg"
 
 ---
 Medical infrastructure is one of the booming problems of today. The onset of Covid-19 exposed the lack of medical infrastructure in our country. The only way to solve this problem from the grassroots is access to proper medical education. We at App Deepo Bhav are aimed to solve this massive problem.

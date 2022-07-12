@@ -64,8 +64,8 @@ const Navbar = class extends React.Component {
                      <div className="col-xxl-6 col-xl-4 col-lg-4 col-md-4">
                         <div className="header__top-right d-flex justify-content-end align-items-center">
                            <div className="header__btn ml-20">
-                              <Link href="/contact">
-                                 <a className="header-btn">contact us</a>
+                              <Link to="/contact">
+                                 <div className="header-btn">contact us</div>
                               </Link>
                            </div>
                         </div>
@@ -78,10 +78,8 @@ const Navbar = class extends React.Component {
                   <div className="row align-items-center">
                      <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
                         <div className="logo">
-                           <Link href="/">
-                              <a>
-                                 <img src={logo} alt="logo" />
-                              </a>
+                           <Link to="/">
+                              <img src={logo} alt="logo" />
                            </Link>
                         </div>
                      </div>

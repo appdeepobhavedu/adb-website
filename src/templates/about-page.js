@@ -1,29 +1,20 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
 export const AboutPageTemplate = ({ title, banner_image, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
-  console.log("banner_image", banner_image)
+  const bannerImage = getImage(banner_image) || banner_image;
+
   return (
     <section className="section section--gradient">
-    <section
-      className="breadcrumb__area include-bg pt-150 pb-150 mb-100 breadcrumb__overlay"
-      style={{ background: `url(${banner_image.substring(7)})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
-    >
-       <div className="container">
-          <div className="row">
-             <div className="col-xxl-12">
-                <div className="breadcrumb__content text-center p-relative z-index-1">
-                   <h3 className="breadcrumb__title">{title}</h3>
-                </div>
-             </div>
-          </div>
-       </div>
-      </section>
+
+    <FullWidthImage img={bannerImage} title={title} />
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -39,7 +30,7 @@ export const AboutPageTemplate = ({ title, banner_image, content, contentCompone
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
-  banner_image: PropTypes.string.isRequired,
+  banner_image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 };
@@ -71,7 +62,11 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title,
-        banner_image
+        banner_image {
+          childImageSharp {
+            gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
+          }
+        }
       }
     }
   }

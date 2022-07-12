@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: App Deepo Bhav
-image: "/static/img/slider-2.jpg"
+image: "/static/img/home.jpg"
 heading: App Deepo Bhav
 subheading: Revolutionising HealthCare from Grassroots
 mainpitch:

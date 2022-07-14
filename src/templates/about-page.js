@@ -14,8 +14,8 @@ export const AboutPageTemplate = ({ title, banner_image, content, contentCompone
   return (
     <section className="section section--gradient">
 
-    <FullWidthImage img={bannerImage} title={title} />
-      <div className="container">
+      <FullWidthImage img={bannerImage} title={title} />
+      <div className="container pt-120 pb-120">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <div className="section">

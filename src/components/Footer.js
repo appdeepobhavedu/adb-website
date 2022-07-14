@@ -2,112 +2,112 @@ import * as React from "react";
 import { Link } from "gatsby";
 
 import logo from "../img/logo.svg";
-import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
-import twitter from "../img/social/twitter.svg";
-import vimeo from "../img/social/vimeo.svg";
 
 const Footer = class extends React.Component {
   render() {
+    let white_bg = ''
     return (
-      <footer className="footer has-background-black has-text-white-ter">
-        <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: "14em", height: "10em" }}
-          />
-        </div>
-        <div className="content has-text-centered has-background-black has-text-white-ter">
-          <div className="container has-background-black has-text-white-ter">
-            <div style={{ maxWidth: "100vw" }} className="columns">
-              <div className="column is-4">
-                <section className="menu">
-                  <ul className="menu-list">
-                    <li>
-                      <Link to="/" className="navbar-item">
-                        Home
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/about">
-                        About
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/products">
-                        Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
-                    <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4">
-                <section>
-                  <ul className="menu-list">
-                    <li>
-                      <Link className="navbar-item" to="/blog">
-                        Latest Stories
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <img
-                    src={facebook}
-                    alt="Facebook"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="twitter" href="https://twitter.com">
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="instagram" href="https://instagram.com">
-                  <img
-                    src={instagram}
-                    alt="Instagram"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-                <a title="vimeo" href="https://vimeo.com">
-                  <img
-                    src={vimeo}
-                    alt="Vimeo"
-                    style={{ width: "1em", height: "1em" }}
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+       <>
+          <footer>
+             <div className="footer__area">
+                <div className={`footer__top grey-bg-4 pt-95 pb-45 ${white_bg && white_bg}`}>
+                   <div className="container">
+                      <div className="row">
+                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
+                            <div className="footer__widget footer-col-1 mb-50">
+                               <div className="footer__logo">
+                                  <div className="logo">
+                                     <Link to="/">
+                                       <img src={logo} alt="logo" />
+                                     </Link>
+                                  </div>
+                               </div>
+                               <div className="footer__widget-content">
+                                  <div className="footer__widget-info">
+                                     <p>Revolutionising HealthCare from Grassroots.</p>
+                                     <div className="footer__social">
+                                        <h4>Follow Us</h4>
+
+                                        <ul>
+                                           <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"> </i></a></li>
+                                           <li><a href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"> </i></a></li>
+                                           <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin-in"> </i></a></li>
+                                        </ul>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                         <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-5">
+                            <div className="footer__widget mb-50">
+                               <h3 className="footer__widget-title">Explore</h3>
+                               <div className="footer__widget-content">
+                                  <ul>
+                                     <li>
+                                        <a href="/about">About us</a>
+                                     </li>
+                                     <li>
+                                        <a href="/about-trust">About Trust</a>
+                                     </li>
+                                     <li>
+                                        <a href="/contact">Courses</a>
+                                     </li>
+                                  </ul>
+                               </div>
+                            </div>
+                         </div>
+                         <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-5">
+                            <div className="footer__widget mb-50">
+                               <h3 className="footer__widget-title">Links</h3>
+                               <div className="footer__widget-content">
+                                  <ul>
+                                     <li>
+                                        <a href="/about">About us</a>
+                                     </li>
+                                     <li>
+                                        <a href="/about-trust">About Trust</a>
+                                     </li>
+                                     <li>
+                                        <a href="/contact">Courses</a>
+                                     </li>
+                                  </ul>
+                               </div>
+                            </div>
+                         </div>
+                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
+                            <div className="footer__widget footer-col-4 mb-50">
+                               <h3 className="footer__widget-title">Sign up for our newsletter</h3>
+
+                               <div className="footer__subscribe">
+                                  <p>Receive weekly newsletter with educational materials, popular books and much more!</p>
+                                  <form action="#">
+                                     <div className="footer__subscribe-input">
+                                        <input type="text" placeholder="Email" />
+                                        <button type="submit" className="tp-btn-subscribe">Subscribe</button>
+                                     </div>
+                                  </form>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div className={`footer__bottom grey-bg-4 ${white_bg && white_bg}`}>
+                   <div className="container">
+                      <div className="footer__bottom-inner">
+                         <div className="row">
+                            <div className="col-xxl-12">
+                               <div className="footer__copyright text-center">
+                                  <p>© 2022 App Deepo Bhav Trust. All Rights Reserved</p>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </footer>
+       </>
     );
   }
 };

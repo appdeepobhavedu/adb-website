@@ -10,9 +10,9 @@ export default () => (
         <div className="content">
           <h1>Thank you!</h1>
           <p>We will get back you at the earliest.</p>
-          <ContactInfoArea />
         </div>
       </div>
+      <ContactInfoArea />
     </section>
   </Layout>
 );

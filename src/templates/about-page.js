@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
+import Team from "../components/Team";
 import Content, { HTMLContent } from "../components/Content";
 import FullWidthImage from "../components/FullWidthImage";
 
@@ -24,6 +25,7 @@ export const AboutPageTemplate = ({ title, banner_image, content, contentCompone
           </div>
         </div>
       </div>
+      <Team />
     </section>
   );
 };

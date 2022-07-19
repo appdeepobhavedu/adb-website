@@ -20,6 +20,43 @@ fields:
   config:
     maxSize: 64
   label: Banner Image
+- name: team_heading
+  type: text
+  config:
+    required: false
+  label: Team Heading
+- name: team_sub_heading
+  type: text
+  config:
+    required: false
+  label: Team Sub Heading
+- name: team_members
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: intro
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Intro
+  - name: photo
+    type: file
+    config:
+      maxSize: 64
+    label: Photo
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Team Members
 pages:
 - src/pages/about-trust/index.md
 - src/pages/about/index.md

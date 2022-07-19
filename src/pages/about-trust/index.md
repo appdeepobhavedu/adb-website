@@ -3,6 +3,21 @@ templateKey: about-page
 path: "/about-trust"
 title: About The Trust
 banner_image: "/static/img/slider-1.jpg"
+team_heading: Meet Our Team
+team_sub_heading: Backed with Strong Experience
+team_members:
+- name: Shailendra Kumar
+  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
+    massa lorem aliqua.
+  photo: "/static/img/user.jpeg"
+- name: Shreyasee Shail
+  photo: "/static/img/user.jpeg"
+  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
+    massa lorem aliqua.
+- name: Shubhaam Shail
+  photo: "/static/img/user.jpeg"
+  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
+    massa lorem aliqua.
 
 ---
 App Deepo Bhav Educational and Health Charitable Trust was founded in 2017 by a group of passionate changemakers. With the belief of ‘excellence, service and integrity’ App Deepo Bhav has its strong foundations rooted.

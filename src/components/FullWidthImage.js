@@ -57,12 +57,13 @@ export default function FullWidthImage(props) {
         )}
         {(title || subheading) && (
           <div
+            className="container"
             style={{
               // By using the same grid area for both, they are stacked on top of each other
               gridArea: "1/1",
               position: "relative",
               // This centers the other elements inside the hero component
-              placeItems: "center",
+              placeItems: "start",
               display: "grid",
             }}
           >

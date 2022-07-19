@@ -1,4 +1,50 @@
 ---
 label: Contact Us
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: sub_title
+  type: text
+  config:
+    required: false
+  label: Sub Title
+- name: address_title
+  type: text
+  config:
+    required: false
+  label: Address Title
+- name: address_details
+  type: text
+  config:
+    required: false
+  label: Address Details
+- name: email_addresses
+  type: field_group_list
+  fields:
+  - name: e-mails
+    type: text
+    config:
+      required: false
+    label: E-mails
+  config:
+    min: 1
+    max: 
+    labelField: 
+  label: Email Addresses
+- name: phone_no
+  type: field_group_list
+  fields:
+  - name: phone_no
+    type: text
+    config:
+      required: false
+    label: Phone no.
+  config:
+    min: 1
+    max: 
+    labelField: 
+  label: Phone no.

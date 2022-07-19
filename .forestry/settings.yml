@@ -14,6 +14,10 @@ sections:
   path: src/pages/about-trust/index.md
   label: About Trust
 - type: document
+  path: src/pages/contact/index.js
+  label: Contact Us
+  match: "**/*"
+- type: document
   path: src/pages/blog/index.js
   label: Blog
 - type: directory

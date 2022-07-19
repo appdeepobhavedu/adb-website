@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/logo.svg";
+import logo from "../img/logo.jpg";
 
 const Footer = class extends React.Component {
   render() {
@@ -50,7 +50,7 @@ const Footer = class extends React.Component {
                                         <a href="/about-trust">About Trust</a>
                                      </li>
                                      <li>
-                                        <a href="/contact">Courses</a>
+                                        <a href="/contact">Contact Us</a>
                                      </li>
                                   </ul>
                                </div>
@@ -68,7 +68,7 @@ const Footer = class extends React.Component {
                                         <a href="/about-trust">About Trust</a>
                                      </li>
                                      <li>
-                                        <a href="/contact">Courses</a>
+                                        <a href="/contact">Contact Us</a>
                                      </li>
                                   </ul>
                                </div>

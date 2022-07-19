@@ -138,9 +138,9 @@ export default class Index extends React.Component {
                                           </svg>
                                        </div>
                                        <div className="contact__info-text">
-                                          <h4>Karpuri Bhawan Belha</h4>
+                                          <h4>App Deep Bhav College</h4>
                                           <p><a target="_blank" rel="noreferrer" href="https://goo.gl/maps/S9HvZxTxND4M96z38">
-                                             App Deep Bhav College, Brahampura, Belha, Phulparas, Madhubani(847402), Bihar, India
+                                             Brahampura, Belha, Phulparas, Madhubani(847402), Bihar, India
                                           </a></p>
 
                                        </div>

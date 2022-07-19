@@ -140,7 +140,7 @@ export default class Index extends React.Component {
                                        <div className="contact__info-text">
                                           <h4>Karpuri Bhawan Belha</h4>
                                           <p><a target="_blank" rel="noreferrer" href="https://goo.gl/maps/S9HvZxTxND4M96z38">
-                                             Zero Point, Opposite Dhanik Lal Vatika, P.S- Ghoghardiha, Madhubani- 847402
+                                             App Deep Bhav College, Brahampura, Belha, Phulparas, Madhubani(847402), Bihar, India
                                           </a></p>
 
                                        </div>
@@ -169,8 +169,8 @@ export default class Index extends React.Component {
                                        </div>
                                        <div className="contact__info-text">
                                           <h4>Phone</h4>
-                                          <p><a href="tel:+91-6203894599">+91-6203894599</a></p>
-                                          <p><a href="tel:+91-8709630479">+91-8709630479</a></p>
+                                          <p><a href="tel:+91-9065380406">+91-9065380406</a></p>
+                                          <p><a href="tel:+91-8434393919">+91-8434393919</a></p>
                                        </div>
                                     </div>
                                  </li>

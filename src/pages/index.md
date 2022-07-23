@@ -2,8 +2,8 @@
 templateKey: index-page
 title: App Deepo Bhav
 image: "/static/img/home.jpg"
-heading: App Deepo Bhav
-subheading: Revolutionising HealthCare from Grassroots
+heading: " Revolutionising HealthCare from Grassroots"
+subheading: We believe everyone should have access to world class education.
 mainpitch:
   title: Why Kaldi
   description: 'Kaldi is the coffee store for everyone who believes that great coffee

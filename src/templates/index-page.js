@@ -1,12 +1,26 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 
 import Layout from "../components/Layout";
-import Features from "../components/Features";
-import BlogRoll from "../components/BlogRoll";
-import FullWidthImage from "../components/FullWidthImage";
+// import Features from "../components/Features";
+// import BlogRoll from "../components/BlogRoll";
+// import FullWidthImage from "../components/FullWidthImage";
+
+// import Head from "next/head";
+import AboutArea from "../components/Home/AboutArea";
+// import HomeBlog from "../components/Home/HomeBlog";
+import Campus from "../components/Home/Campus";
+// import CounterArea from "../components/Home/CounterArea";
+import Features from "../components/Home/Features";
+// import Header from "../components/Home/Header";
+import HeroArea from "../components/Home/HeroArea";
+// import HomeCourses from "../components/Home/HomeCourses";
+import ResearchArea from "../components/Home/ResearchArea";
+import Cta from "../components/Home/Cta";
+// import Footer from "../components/common/Footer";
+// import SEO from "../components/seo";
 
 // eslint-disable-next-line
 export const IndexPageTemplate = ({
@@ -22,8 +36,16 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <FullWidthImage img={heroImage} title={title} subheading={subheading} />
-      <section className="section section--gradient">
+      <HeroArea img={heroImage} title={title} subheading={subheading} />
+      <Features />
+
+      <AboutArea />
+      {/*<HomeCourses />*/}
+      <Campus />
+      <ResearchArea />
+      {/*<HomeBlog />*/}
+      <Cta />
+      {/*<section className="section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -69,7 +91,7 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
     </div>
   );
 };

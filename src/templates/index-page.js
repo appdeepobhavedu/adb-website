@@ -36,7 +36,7 @@ export const IndexPageTemplate = ({
 
   return (
     <div>
-      <HeroArea img={heroImage} title={title} subheading={subheading} />
+      <HeroArea img={heroImage} title={title} heading={heading} subheading={subheading} />
       <Features />
 
       <AboutArea />

@@ -40,7 +40,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <img src={bannerImage} title={"Contact Us"} height="400" width="100%" />
+        <img src={bannerImage} title={"Contact Us"} alt={"Contact Us"} height="400" width="100%" />
         <section className="section">
           <div className="container">
             <div className="content">

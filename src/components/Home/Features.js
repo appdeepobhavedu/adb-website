@@ -54,14 +54,14 @@ const Features = () => {
                                  <div className="features__content">
                                     <h3 className="features__title">
                                        <Link href="/about">
-                                          <a>{feature.title}</a>
+                                          <button>{feature.title}</button>
                                        </Link>
                                     </h3>
                                     <p>Euucal University was established it is recognized.</p>
 
                                     <Link href="/about">
-                                       <a className="link-btn">Learn More <i className="fa-regular fa-arrow-right">
-                                       </i></a>
+                                       <button className="link-btn">Learn More <i className="fa-regular fa-arrow-right">
+                                       </i></button>
                                     </Link>
                                  </div>
                               </div>

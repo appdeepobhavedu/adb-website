@@ -18,7 +18,7 @@ const Campus = () => {
                         </div>
                         <div className="campus__btn mb-80">
                            <Link href="/about">
-                              <a  className="tp-btn tp-btn-border">More Research</a>
+                              <button className="tp-btn tp-btn-border">More Research</button>
                            </Link>
                         </div>
                      </div>

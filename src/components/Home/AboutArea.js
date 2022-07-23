@@ -45,7 +45,7 @@ const AboutArea = ({ about_pt = '' }) => {
 
                         <div className="about__btn">
                            <Link href="/about">
-                              <a className="tp-btn tp-btn-2">Read more</a>
+                              <button className="tp-btn tp-btn-2">Read more</button>
                            </Link>
                         </div>
                      </div>

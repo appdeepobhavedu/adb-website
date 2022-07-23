@@ -23,7 +23,7 @@ const HeroArea = ({img, title, heading, subheading}) => {
                               <p>{subheading}</p>
                               <div className="slider__btn">
                                  <Link href="/courses">
-                                    <a className="tp-btn">Apply Now</a>
+                                    <button className="tp-btn">Apply Now</button>
                                  </Link>
                               </div>
                            </div>

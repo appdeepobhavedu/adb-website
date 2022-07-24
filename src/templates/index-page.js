@@ -16,6 +16,7 @@ import Campus from "../components/Home/Campus";
 import Features from "../components/Home/Features";
 // import Header from "../components/Home/Header";
 import HeroArea from "../components/Home/HeroArea";
+import CategoryArea from "../components/Home/CategoryArea";
 // import HomeCourses from "../components/Home/HomeCourses";
 import ResearchArea from "../components/Home/ResearchArea";
 import Cta from "../components/Home/Cta";
@@ -38,7 +39,7 @@ export const IndexPageTemplate = ({
     <div>
       <HeroArea img={heroImage} title={title} heading={heading} subheading={subheading} />
       <Features />
-
+      <CategoryArea />
       <AboutArea />
       {/*<HomeCourses />*/}
       <Campus />

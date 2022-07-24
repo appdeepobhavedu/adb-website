@@ -40,7 +40,7 @@ const Features = () => {
    ]
    return (
       <>
-         <section className="features__area pb-160">
+         <section className="features__area pb-50">
             <div className="container">
                <div className="features__inner p-relative z-index-1 white-bg">
                   <div className="row">

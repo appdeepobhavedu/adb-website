@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux';
 const CoursesArea = () => {
    // coursesItems
    const coursesItems = useSelector(state => state.courses.allCourses);
+   debugger
    return (
       <>
          <section className="course__area pt-115 pb-120 grey-bg-4">

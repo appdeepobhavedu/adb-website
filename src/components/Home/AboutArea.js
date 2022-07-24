@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
 
+import img1 from "../img/about/about-1.jpg"
+import img2 from "../img/about/about-2.jpg"
+import img3 from "../img/about/about-3.jpg"
+
 const AboutArea = ({ about_pt = '' }) => {
    return (
       <>
@@ -9,21 +13,16 @@ const AboutArea = ({ about_pt = '' }) => {
                <div className="row">
                   <div className="col-xxl-7 col-xl-7 col-lg-7">
                      <div className="about__thumb-wrapper d-sm-flex mr-20 p-relative">
-                        <div className="about__shape">
-                           <img className="about__shape-1 d-none d-sm-block" src="assets/img/about/about-shape-1.png" alt="" />
-                           <img className="about__shape-2 d-none d-sm-block" src="assets/img/about/about-shape-2.png" alt="" />
-                           <img className="about__shape-3" src="assets/img/about/about-shape-3.png" alt="" />
-                        </div>
                         <div className="about__thumb-left mr-10">
                            <div className="about__thumb-1 mb-10">
-                              <img src="assets/img/about/about-1.jpg" alt="" />
+                              <img src={img1} alt="" />
                            </div>
                            <div className="about__thumb-1 mb-10 text-end">
-                              <img src="assets/img/about/about-3.jpg" alt="" />
+                              <img src={img3} alt="" />
                            </div>
                         </div>
                         <div className="about__thumb-2 mb-10">
-                           <img src="assets/img/about/about-2.jpg" alt="" />
+                           <img src={img2} alt="" />
                         </div>
                      </div>
                   </div>

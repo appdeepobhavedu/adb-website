@@ -1,23 +1,27 @@
 import React from "react";
 
+import img1 from "../img/research/research-1.jpg"
+import img2 from "../img/research/research-2.jpg"
+import img3 from "../img/research/research-3.jpg"
+
 const ResearchArea = () => {
    // researchData
    const researchData = [
       {
          id: 1,
-         img: 'assets/img/research/research-1.jpg',
+         img: img1,
          title: 'Frontier Research',
          border:'research__item-border'
       },
       {
          id: 2,
-         img: 'assets/img/research/research-2.jpg',
+         img: img2,
          title: 'Global Research',
          border:'research__item-border'
       },
       {
          id: 3,
-         img: 'assets/img/research/research-3.jpg',
+         img: img3,
          title: 'Public Engagement',
       },
    ]

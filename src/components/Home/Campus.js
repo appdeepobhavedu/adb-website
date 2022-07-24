@@ -1,5 +1,12 @@
 import React from 'react';
 import { Link } from "gatsby";
+
+import img1 from "../img/campus/campus-1.jpg"
+import img2 from "../img/campus/campus-2.jpg"
+import img3 from "../img/campus/campus-3.jpg"
+import img4 from "../img/campus/campus-4.jpg"
+import img5 from "../img/campus/campus-5.jpg"
+
 // import { Modal } from 'react-responsive-modal';
 // import ReactPlayer from "react-player";
 
@@ -25,32 +32,27 @@ const Campus = () => {
                   </div>
                   <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                      <div className="campus__thumb w-img mb-30">
-                        <img src="assets/img/campus/campus-1.jpg" alt="" />
-                        <button className="play-btn popup-video pulse-btn">
-                           <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M15.5 8.13397C16.1667 8.51888 16.1667 9.48113 15.5 9.86603L2 17.6603C1.33333 18.0452 0.5 17.564 0.5 16.7942V1.20577C0.5 0.43597 1.33333 -0.0451542 2 0.339746L15.5 8.13397Z" fill="#3D6CE7" />
-                           </svg>
-                        </button>
+                        <img src={img1} alt="" />
                      </div>
                   </div>
                   <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
                      <div className="campus__thumb w-img mb-25">
-                        <img src="assets/img/campus/campus-2.jpg" alt="" />
+                        <img src={img2} alt="" />
                      </div>
                   </div>
                   <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
                      <div className="campus__thumb w-img mb-30">
-                        <img src="assets/img/campus/campus-3.jpg" alt="" />
+                        <img src={img3} alt="" />
                      </div>
                   </div>
                   <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
                      <div className="campus__thumb w-img mb-30">
-                        <img src="assets/img/campus/campus-4.jpg" alt="" />
+                        <img src={img4} alt="" />
                      </div>
                   </div>
                   <div className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
                      <div className="campus__thumb w-img mb-30">
-                        <img src="assets/img/campus/campus-5.jpg" alt="" />
+                        <img src={img5} alt="" />
                      </div>
                   </div>
                </div>

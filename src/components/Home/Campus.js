@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from "gatsby";
 
-import img1 from "../img/campus/campus-1.jpg"
-import img2 from "../img/campus/campus-2.jpg"
-import img3 from "../img/campus/campus-3.jpg"
-import img4 from "../img/campus/campus-4.jpg"
-import img5 from "../img/campus/campus-5.jpg"
+import img1 from "../../img/campus/campus-1.jpg"
+import img2 from "../../img/campus/campus-2.jpg"
+import img3 from "../../img/campus/campus-3.jpg"
+import img4 from "../../img/campus/campus-4.jpg"
+import img5 from "../../img/campus/campus-5.jpg"
 
 // import { Modal } from 'react-responsive-modal';
 // import ReactPlayer from "react-player";

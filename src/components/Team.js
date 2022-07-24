@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../components/img/research/research-1.jpg";
-import img2 from "../components/img/research/research-2.jpg";
-import img3 from "../components/img/research/research-3.jpg";
+import img1 from "../img/research/research-1.jpg";
+import img2 from "../img/research/research-2.jpg";
+import img3 from "../img/research/research-3.jpg";
 
 const Team = () => {
    // researchData

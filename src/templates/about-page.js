@@ -8,7 +8,7 @@ import Content, { HTMLContent } from "../components/Content";
 import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
-export const AboutPageTemplate = ({ title, banner_image, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, banner_image, content, contentComponent, team_heading, team_subheading, team_members }) => {
   const PageContent = contentComponent || Content;
   const bannerImage = getImage(banner_image) || banner_image;
 
@@ -25,7 +25,7 @@ export const AboutPageTemplate = ({ title, banner_image, content, contentCompone
           </div>
         </div>
       </div>
-      <Team />
+      <Team team_heading={team_heading} team_subheading={team_subheading} team_members={team_members} />
     </section>
   );
 };
@@ -35,6 +35,9 @@ AboutPageTemplate.propTypes = {
   banner_image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   content: PropTypes.string,
   contentComponent: PropTypes.func,
+  team_heading: PropTypes.string,
+  team_subheading: PropTypes.string,
+  team_members: PropTypes.array,
 };
 
 const AboutPage = ({ data }) => {
@@ -47,6 +50,9 @@ const AboutPage = ({ data }) => {
         title={post.frontmatter.title}
         banner_image={post.frontmatter.banner_image}
         content={post.html}
+        team_heading={post.frontmatter.team_heading}
+        team_subheading={post.frontmatter.team_subheading}
+        team_members={post.frontmatter.team_members}
       />
     </Layout>
   );
@@ -67,6 +73,17 @@ export const aboutPageQuery = graphql`
         banner_image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+          }
+        }
+        team_heading
+        team_subheading
+        team_members {
+          name
+          intro
+          photo {
+            childImageSharp {
+              gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            }
           }
         }
       }

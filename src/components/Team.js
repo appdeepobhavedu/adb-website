@@ -1,29 +1,9 @@
 import React from "react";
-import img1 from "../img/research/research-1.jpg";
-import img2 from "../img/research/research-2.jpg";
-import img3 from "../img/research/research-3.jpg";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-const Team = () => {
-   // researchData
-   const researchData = [
-      {
-         id: 1,
-         img: img1,
-         title: 'Shailendra Kumar',
-         border:'research__item-border'
-      },
-      {
-         id: 2,
-         img: img2,
-         title: 'Shreyasee Shail',
-         border:'research__item-border'
-      },
-      {
-         id: 3,
-         img: img3,
-         title: 'Shubhaam Shail',
-      },
-   ]
+const Team = ({team_heading, team_subheading, team_members}) => {
+   // console.log("team_members", team_members)
+   // const bannerImage = getImage(banner_image) || banner_image;
    return (
       <>
          <section className="research__area research__border grey-bg-3 pt-115 pb-90 p-relative z-index-1">
@@ -31,22 +11,33 @@ const Team = () => {
                <div className="row">
                   <div className="col-xxl-12">
                      <div className="section__title-wrapper mb-50 text-center">
-                        <span className="section__title-pre">Meet Our Team</span>
-                        <h2 className="section__title section__title-44">Life Changing Research</h2>
+                        <span className="section__title-pre">{team_heading}</span>
+                        <h2 className="section__title section__title-44">{team_subheading}</h2>
                      </div>
                   </div>
                </div>
                <div className="row">
                   {
-                     researchData.map(research => {
-                        return <div key={research.id} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                           <div className={`research__item ${research.border ? research.border : ''} text-center mb-30 transition-3`}>
+                     team_members.map(member => {
+                        return <div key={member.name} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                           <div className={`research__item ${member.border ? member.border : ''} text-center mb-30 transition-3`}>
                               <div className="research__thumb mb-35">
-                                 <img src={research.img} alt="" />
+                                 <GatsbyImage
+                                   image={getImage(member.photo) || member.photo}
+                                   objectFit={"cover"}
+                                   // objectPosition={imgPosition}
+                                   style={{
+                                     gridArea: "1/1",
+                                     // You can set a maximum height for the image, if you wish.
+                                     // height: height,
+                                   }}
+                                   alt={"Image of " + member.name}
+                                   formats={["auto", "webp", "avif"]}
+                                 />
                               </div>
                               <div className="research__content">
-                                 <h3 className="research__title">{research.title}</h3>
-                                 <p>Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa lorem aliqua.</p>
+                                 <h3 className="research__title">{member.name}</h3>
+                                 <p>{member.intro}</p>
                               </div>
                            </div>
                         </div>

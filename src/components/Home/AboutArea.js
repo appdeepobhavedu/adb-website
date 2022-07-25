@@ -5,7 +5,9 @@ import img1 from "../../img/about/about-1.jpg"
 import img2 from "../../img/about/about-2.jpg"
 import img3 from "../../img/about/about-3.jpg"
 
-const AboutArea = ({ about_pt = '' }) => {
+const AboutArea = ({ about_pt = '', about_college }) => {
+   console.log("about_college", about_college)
+   let {title, heading, sub_heading, features} = about_college;
    return (
       <>
          <section className={`about__area pb-120 p-relative ${about_pt && about_pt}`}>
@@ -29,21 +31,26 @@ const AboutArea = ({ about_pt = '' }) => {
                   <div className="col-xxl-5 col-xl-5 col-lg-5">
                      <div className="about__content pl-70 pr-25">
                         <div className="section__title-wrapper mb-15">
-                           <span className="section__title-pre">About Educal</span>
-                           <h2 className="section__title">Degrees in Various academic Didciplines</h2>
+                           <span className="section__title-pre">{title}</span>
+                           <h2 className="section__title">{heading}</h2>
                         </div>
-                        <p>Not only can university offer an environment rich in our social an cultural experiences.</p>
+                        <p>{sub_heading}</p>
 
                         <div className="about__list mb-40">
                            <ul>
-                              <li><i className="fa-solid fa-check"></i> Access to all our courses</li>
-                              <li><i className="fa-solid fa-check"></i> Learn the latest skills</li>
-                              <li><i className="fa-solid fa-check"></i> Upskill your organization</li>
+                           {
+                              features.map(({feature}) => 
+                                 <li key={feature}><i className="fa-solid fa-check"></i> {feature}</li>
+                              )
+                           }
+                              {/*{
+                                 
+                              }*/}
                            </ul>
                         </div>
 
                         <div className="about__btn">
-                           <Link href="/about">
+                           <Link to="/about">
                               <button className="tp-btn tp-btn-2">Read more</button>
                            </Link>
                         </div>

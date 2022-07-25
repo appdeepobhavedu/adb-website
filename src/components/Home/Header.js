@@ -77,7 +77,7 @@ const Header = () => {
                                           <path d="M5.99995 6.83333C7.61078 6.83333 8.91662 5.5275 8.91662 3.91667C8.91662 2.30584 7.61078 1 5.99995 1C4.38912 1 3.08328 2.30584 3.08328 3.91667C3.08328 5.5275 4.38912 6.83333 5.99995 6.83333Z" stroke="#031220" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
                                           <path d="M11.0108 12.6667C11.0108 10.4092 8.76497 8.58333 5.99997 8.58333C3.23497 8.58333 0.989136 10.4092 0.989136 12.6667" stroke="#031220" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
                                        </svg> Logout
-                                    </a> : <Link href="/sign-in">
+                                    </a> : <Link to="/sign-in">
                                        <a >
                                           <svg viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                              <path d="M5.99995 6.83333C7.61078 6.83333 8.91662 5.5275 8.91662 3.91667C8.91662 2.30584 7.61078 1 5.99995 1C4.38912 1 3.08328 2.30584 3.08328 3.91667C3.08328 5.5275 4.38912 6.83333 5.99995 6.83333Z" stroke="#031220" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" />
@@ -89,7 +89,7 @@ const Header = () => {
 
                               </div>
                               <div className="header__btn ml-20">
-                                 <Link href="/contact">
+                                 <Link to="/contact">
                                     <a className="header-btn">contact us</a>
                                  </Link>
                               </div>
@@ -103,7 +103,7 @@ const Header = () => {
                      <div className="row align-items-center">
                         <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-6 col-6">
                            <div className="logo">
-                              <Link href="/">
+                              <Link to="/">
                                  <a>
                                     <img src="assets/img/logo/logo.png" alt="logo" />
                                  </a>
@@ -118,12 +118,12 @@ const Header = () => {
                                     {!user?.email &&
                                        links.map((link) => {
                                           return <li key={link.id} className={link.submenu ? `has-dropdown` : ''}>
-                                             <Link href={`${link.url}`}><a >{link.name}</a></Link>
+                                             <Link to={`${link.url}`}><a >{link.name}</a></Link>
                                              <ul className={link.submenu ? `submenu` : ''}>
                                                 {
                                                    link?.submenu?.map((sub_menu, index) => {
                                                       return <li key={sub_menu.id}>
-                                                         <Link href={`${sub_menu.url}`}><a >{sub_menu.name}</a></Link>
+                                                         <Link to={`${sub_menu.url}`}><a >{sub_menu.name}</a></Link>
                                                       </li>
                                                    })
                                                 }
@@ -136,12 +136,12 @@ const Header = () => {
                                        user?.email &&
                                        LoginData.map((link) => {
                                           return <li key={link.id} className={link.submenu ? `has-dropdown` : ''}>
-                                             <Link href={`${link.url}`}><a >{link.name}</a></Link>
+                                             <Link to={`${link.url}`}><a >{link.name}</a></Link>
                                              <ul className={link.submenu ? `submenu` : ''}>
                                                 {
                                                    link?.submenu?.map((sub_menu, index) => {
                                                       return <li key={sub_menu.id}>
-                                                         <Link href={`${sub_menu.url}`}><a >{sub_menu.name}</a></Link>
+                                                         <Link to={`${sub_menu.url}`}><a >{sub_menu.name}</a></Link>
                                                       </li>
                                                    })
                                                 }

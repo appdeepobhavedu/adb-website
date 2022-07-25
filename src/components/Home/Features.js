@@ -53,13 +53,13 @@ const Features = () => {
                                  </div>
                                  <div className="features__content">
                                     <h3 className="features__title">
-                                       <Link href="/about">
+                                       <Link to="/about">
                                           <button>{feature.title}</button>
                                        </Link>
                                     </h3>
                                     <p>Euucal University was established it is recognized.</p>
 
-                                    <Link href="/about">
+                                    <Link to="/about">
                                        <button className="link-btn">Learn More <i className="fa-regular fa-arrow-right">
                                        </i></button>
                                     </Link>

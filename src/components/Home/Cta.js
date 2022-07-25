@@ -23,7 +23,7 @@ const Cta = () => {
                            <div className="cta__content">
                               <h3 className="cta__title">Become an Instructor</h3>
                               <p>Teach what you love. Learned gives you neccessary tools to become an instructor.</p>
-                              <Link href="/contact">
+                              <Link to="/contact">
                                  <button className="tp-btn tp-btn-3">Start Teaching</button>
                               </Link>
                            </div>
@@ -42,7 +42,7 @@ const Cta = () => {
                            <div className="cta__content">
                               <h3 className="cta__title">Apply for Admission</h3>
                               <p>Course completed? Then its time apply the certificate Do it in simplesteps with Learned.</p>
-                              <Link href="/contact">
+                              <Link to="/contact">
                                  <button className="tp-btn tp-btn-4">Apply Now</button>
                               </Link>
                            </div>

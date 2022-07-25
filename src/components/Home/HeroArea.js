@@ -5,7 +5,6 @@ import { Link } from "gatsby";
 // SwiperCore.use([Navigation]);
 
 const HeroArea = ({img, title, heading, subheading}) => {
-   console.log("img", img)
    return (
       <>
          <section className="slider__area">
@@ -22,7 +21,7 @@ const HeroArea = ({img, title, heading, subheading}) => {
                               <h2 className="slider__title">{heading}</h2>
                               <p>{subheading}</p>
                               <div className="slider__btn">
-                                 <Link href="/courses">
+                                 <Link to="/courses">
                                     <button className="tp-btn">Apply Now</button>
                                  </Link>
                               </div>

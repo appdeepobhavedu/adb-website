@@ -41,7 +41,7 @@ const HomeCourses = () => {
                         return <div key={course?._id} className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
                            <div className="course__item white-bg transition-3 mb-30">
                               <div className="course__thumb w-img fix course_thumb_height">
-                                 <Link href={`/course-details/${course?._id}`}>
+                                 <Link to={`/course-details/${course?._id}`}>
                                     <a>
                                        <img src={course?.img_bg} alt="" />
                                     </a>
@@ -52,12 +52,12 @@ const HomeCourses = () => {
                                     <span>${course?.price}</span>
                                  </div>
                                  <div className="course__tag">
-                                    <Link href={`/course-details/${course?._id}`}>
+                                    <Link to={`/course-details/${course?._id}`}>
                                        <a >{course?.category}</a>
                                     </Link>
                                  </div>
                                  <h3 className="course__title">
-                                    <Link href={`/course-details/${course?._id}`}>
+                                    <Link to={`/course-details/${course?._id}`}>
                                        <a >{course?.title?.substring(0, 30)}..</a>
                                     </Link>
                                  </h3>
@@ -65,7 +65,7 @@ const HomeCourses = () => {
 
                                  <div className="course__bottom d-sm-flex align-items-center justify-content-between">
                                     <div className="course__tutor">
-                                       <Link href={`/course-details/${course?._id}`}>
+                                       <Link to={`/course-details/${course?._id}`}>
                                           <a>
                                              <img src={course?.teacher_img} alt="" />
                                              {course?.tutor_name}

@@ -28,11 +28,6 @@ const ResearchArea = () => {
    return (
       <>
          <section className="research__area research__border grey-bg-3 pt-115 pb-90 p-relative z-index-1">
-            <div className="research__shape">
-               <img className="research__shape-1 d-none d-sm-block" src="assets/img/research/research-shape-1.png" alt="" />
-               <img className="research__shape-2 d-none d-sm-block" src="assets/img/research/research-shape-2.png" alt="" />
-               <img className="research__shape-3" src="assets/img/research/research-shape-3.png" alt="" />
-            </div>
             <div className="container">
                <div className="row">
                   <div className="col-xxl-12">

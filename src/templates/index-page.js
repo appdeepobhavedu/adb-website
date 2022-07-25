@@ -29,9 +29,7 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
-  mainpitch,
-  description,
-  intro,
+  about_college,
 }) => {
   const heroImage = getImage(image) || image;
 
@@ -40,7 +38,7 @@ export const IndexPageTemplate = ({
       <HeroArea img={heroImage} title={title} heading={heading} subheading={subheading} />
       <Features />
       <CategoryArea />
-      <AboutArea />
+      <AboutArea about_college={about_college} />
       {/*<HomeCourses />*/}
       <Campus />
       <ResearchArea />
@@ -102,11 +100,7 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
-  mainpitch: PropTypes.object,
-  description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
+  about_college: PropTypes.object,
 };
 
 const IndexPage = ({ data }) => {
@@ -119,9 +113,7 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
+        about_college={frontmatter.about_college}
       />
     </Layout>
   );
@@ -149,22 +141,13 @@ export const pageQuery = graphql`
         }
         heading
         subheading
-        mainpitch {
+        about_college {
           title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                gatsbyImageData(width: 240, quality: 64, layout: CONSTRAINED)
-              }
-            }
-            text
-          }
           heading
-          description
+          sub_heading
+          features {
+            feature
+          }
         }
       }
     }

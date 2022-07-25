@@ -52,7 +52,7 @@ const CategoryArea = () => {
                      <div className="category__wrapper-3 mb-60 d-sm-flex align-items-end justify-content-between">
                         <p>Elementum facilisis leo vel est ullamcorper get facilisi.Sagittis orci a purus semper eget.</p>
                         <div className="category__more mb-10">
-                           <Link href="/courses">
+                           <Link to="/courses">
                               <button className="tp-btn-5 tp-btn-8">All Categories</button>
                            </Link>
                         </div>
@@ -69,29 +69,29 @@ const CategoryArea = () => {
                               <div className="category__list">
                                  <ul>
                                     <li>
-                                       <Link href="/courses">
+                                       <Link to="/courses">
                                           <button >{category.sub_1} <i className="fa-regular fa-arrow-right"></i></button>
                                        </Link>
                                     </li>
                                     <li>
-                                       <Link href="/courses">
+                                       <Link to="/courses">
                                           <button >{category.sub_2} <i className="fa-regular fa-arrow-right"></i></button>
                                        </Link>
                                     </li>
                                     <li>
-                                       <Link href="/courses">
+                                       <Link to="/courses">
                                           <button >{category.sub_3} <i className="fa-regular fa-arrow-right"></i></button>
                                        </Link>
                                     </li>
                                     <li>
-                                       <Link href="/courses">
+                                       <Link to="/courses">
                                           <button >{category.sub_4} <i className="fa-regular fa-arrow-right"></i></button>
                                        </Link>
                                     </li>
                                  </ul>
                               </div>
                               <div className="category__btn-3">
-                                 <Link href="/courses">
+                                 <Link to="/courses">
                                     <button className="tp-btn-9 w-100">Explore</button>
                                  </Link>
                               </div>

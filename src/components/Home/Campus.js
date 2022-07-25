@@ -24,7 +24,7 @@ const Campus = () => {
                            <p>Our research has an impact globally join us in tackling the big issues.</p>
                         </div>
                         <div className="campus__btn mb-80">
-                           <Link href="/about">
+                           <Link to="/about">
                               <button className="tp-btn tp-btn-border">More Research</button>
                            </Link>
                         </div>

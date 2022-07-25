@@ -32,12 +32,12 @@ const HomeBlog = () => {
                               <div className="blog__thumb-bg w-img fix" style={{ background: `url(${img})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize: 'cover' }}></div>
                               <div className="blog__content-float">
                                  <div className="blog__tag-float mb-15">
-                                    <Link href={`/blog-details/${_id}`}>
+                                    <Link to={`/blog-details/${_id}`}>
                                        <a>{category}</a>
                                     </Link>
                                  </div>
                                  <h3 className="blog__title-float">
-                                    <Link href={`/blog-details/${_id}`}>
+                                    <Link to={`/blog-details/${_id}`}>
                                        <a >{blog?.title.substring(0, 35)}..</a>
                                     </Link>
                                  </h3>
@@ -62,7 +62,7 @@ const HomeBlog = () => {
                         </div> : <div key={blog?._id} className="col-xxl-3 col-xl-3 col-lg-6 col-md-6">
                            <div className="blog__item mb-30 white-bg transition-3 mb-30">
                               <div className="blog__thumb w-img fix">
-                                 <Link href={`/blog-details/${_id}`}>
+                                 <Link to={`/blog-details/${_id}`}>
                                     <a>
                                        <img src={img} alt="" />
                                     </a>
@@ -70,12 +70,12 @@ const HomeBlog = () => {
                               </div>
                               <div className="blog__content">
                                  <div className="blog__tag">
-                                    <Link href={`/blog-details/${_id}`}>
+                                    <Link to={`/blog-details/${_id}`}>
                                        <a>{category}</a>
                                     </Link>
                                  </div>
                                  <h3 className="blog__title">
-                                    <Link href={`/blog-details/${_id}`}>
+                                    <Link to={`/blog-details/${_id}`}>
                                        <a >{blog?.title.substring(0, 35)}..</a>
                                     </Link>
                                  </h3>

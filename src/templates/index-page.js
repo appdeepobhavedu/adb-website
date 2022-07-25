@@ -145,6 +145,10 @@ export const pageQuery = graphql`
           title
           heading
           sub_heading
+          link{
+            text
+            path
+          }
           features {
             feature
           }

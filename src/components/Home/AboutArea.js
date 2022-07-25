@@ -6,7 +6,6 @@ import img2 from "../../img/about/about-2.jpg"
 import img3 from "../../img/about/about-3.jpg"
 
 const AboutArea = ({ about_pt = '', about_college }) => {
-   console.log("about_college", about_college)
    let {title, heading, sub_heading, features} = about_college;
    return (
       <>
@@ -38,14 +37,11 @@ const AboutArea = ({ about_pt = '', about_college }) => {
 
                         <div className="about__list mb-40">
                            <ul>
-                           {
-                              features.map(({feature}) => 
-                                 <li key={feature}><i className="fa-solid fa-check"></i> {feature}</li>
-                              )
-                           }
-                              {/*{
-                                 
-                              }*/}
+                              {
+                                 features.map(({feature}) => 
+                                    <li key={feature}><i className="fa-solid fa-check"></i> {feature}</li>
+                                 )
+                              }
                            </ul>
                         </div>
 

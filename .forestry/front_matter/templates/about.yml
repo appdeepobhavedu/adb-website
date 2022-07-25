@@ -57,6 +57,11 @@ fields:
     max: 
     labelField: 
   label: Team Members
+- name: team
+  type: include
+  config: {}
+  template: team-section
+  label: Team
 pages:
 - src/pages/about-trust/index.md
 - src/pages/about/index.md

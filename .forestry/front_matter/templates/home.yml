@@ -55,10 +55,25 @@ fields:
         required: false
       label: Feature
     config:
-      min: 3
-      max: 3
+      min: 
+      max: 
       labelField: 
     label: Features
+  - name: link
+    type: field_group
+    config: {}
+    fields:
+    - name: text
+      type: text
+      config:
+        required: false
+      label: text
+    - name: path
+      type: text
+      config:
+        required: false
+      label: path
+    label: Link
   label: About College
 pages:
 - src/pages/index.md

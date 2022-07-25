@@ -21,6 +21,9 @@ team_members:
 heading: Meet Our Team
 subheading: Backed with Strong Experience
 members:
+- name: Shubhaam Shail
+  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
+  photo: "/static/img/user.jpeg"
 - name: Shailendra Kumar
   photo: "/static/img/user.jpeg"
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donecmassa

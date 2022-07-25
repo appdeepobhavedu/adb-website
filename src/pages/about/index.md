@@ -18,6 +18,13 @@ team_members:
   photo: "/static/img/user.jpeg"
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
     massa lorem aliqua.
+heading: Meet Our Team
+subheading: Backed with Strong Experience
+members:
+- name: Shailendra Kumar
+  photo: "/static/img/user.jpeg"
+  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donecmassa
+    lorem aliqua.
 
 ---
 Medical infrastructure is one of the booming problems of today. The onset of Covid-19 exposed the lack of medical infrastructure in our country. The only way to solve this problem from the grassroots is access to proper medical education. We at App Deepo Bhav are aimed to solve this massive problem. With competent personnel from the medical sector, the college is aimed to foster holistic education to its students. The college is entrusted with the responsibility of not only developing the skillset of its students but also instilling the ability to lead in their future organisations. 

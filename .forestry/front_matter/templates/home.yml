@@ -20,78 +20,45 @@ fields:
 - type: text
   name: subheading
   label: subheading
-- type: field_group
-  name: mainpitch
-  label: mainpitch
-  fields:
-  - type: text
-    name: title
-    label: title
-  - type: textarea
-    name: description
-    label: description
 - type: textarea
   name: description
   label: description
-- type: field_group
-  name: intro
-  label: intro
+- name: about_college
+  type: field_group
+  config: {}
   fields:
-  - type: field_group_list
-    name: blurbs
-    label: blurbs
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: sub_heading
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Sub Heading
+  - name: features
+    type: field_group_list
     fields:
-    - type: file
-      name: image
-      label: image
-    - type: textarea
-      name: text
-      label: text
-  - type: text
-    name: heading
-    label: heading
-  - type: textarea
-    name: description
-    label: description
-- type: field_group
-  name: main
-  label: main
-  fields:
-  - type: text
-    name: heading
-    label: heading
-  - type: textarea
-    name: description
-    label: description
-  - type: field_group
-    name: image1
-    label: image1
-    fields:
-    - type: text
-      name: alt
-      label: alt
-    - type: file
-      name: image
-      label: image
-  - type: field_group
-    name: image2
-    label: image2
-    fields:
-    - type: text
-      name: alt
-      label: alt
-    - type: file
-      name: image
-      label: image
-  - type: field_group
-    name: image3
-    label: image3
-    fields:
-    - type: text
-      name: alt
-      label: alt
-    - type: file
-      name: image
-      label: image
+    - name: feature
+      type: text
+      config:
+        required: false
+      label: Feature
+    config:
+      min: 3
+      max: 3
+      labelField: 
+    label: Features
+  label: About College
 pages:
 - src/pages/index.md

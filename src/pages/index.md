@@ -13,5 +13,8 @@ about_college:
   - feature: Career Focussed Approach
   - feature: Industry Professional Faculties
   - feature: Extracurricular Activities
+  link:
+    text: Read more
+    path: "/about"
 
 ---

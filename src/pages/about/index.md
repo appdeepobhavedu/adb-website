@@ -21,6 +21,9 @@ team_members:
 heading: Meet Our Team
 subheading: Backed with Strong Experience
 members:
+- name: Shreyasee Shail
+  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
+  photo: "/static/img/user.jpeg"
 - name: Shubhaam Shail
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
   photo: "/static/img/user.jpeg"

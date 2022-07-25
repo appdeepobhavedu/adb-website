@@ -2,17 +2,17 @@
 label: Team section
 hide_body: true
 fields:
-- name: heading
+- name: team_heading
   type: text
   config:
     required: false
   label: Team Heading
-- name: subheading
+- name: team_subheading
   type: text
   config:
     required: false
   label: Team Subheading
-- name: members
+- name: team_members
   type: field_group_list
   fields:
   - name: name

@@ -6,12 +6,12 @@ fields:
   type: text
   config:
     required: false
-  label: Heading
+  label: Team Heading
 - name: subheading
   type: text
   config:
     required: false
-  label: Subheading
+  label: Team Subheading
 - name: members
   type: field_group_list
   fields:
@@ -38,4 +38,4 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Members
+  label: Team Members

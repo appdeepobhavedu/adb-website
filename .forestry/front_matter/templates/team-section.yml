@@ -1,4 +1,41 @@
 ---
 label: Team section
 hide_body: true
-fields: []
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: subheading
+  type: text
+  config:
+    required: false
+  label: Subheading
+- name: members
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: intro
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Intro
+  - name: photo
+    type: file
+    config:
+      maxSize: 64
+    label: Photo
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Members

@@ -4,7 +4,7 @@ path: "/about-trust"
 title: About The Trust
 banner_image: "/static/img/slider-1.jpg"
 team_heading: Meet Our Team
-team_sub_heading: Backed with Strong Experience
+team_subheading: Backed with Strong Experience
 team_members:
 - name: Shailendra Kumar
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec

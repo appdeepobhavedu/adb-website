@@ -4,23 +4,8 @@ path: "/about"
 title: About College
 banner_image: "/static/img/about.jpg"
 team_heading: Meet Our Team
-team_sub_heading: Backed with Strong Experience
+team_subheading: Backed with Strong Experience
 team_members:
-- name: Shailendra Kumar
-  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
-    massa lorem aliqua.
-  photo: "/static/img/user.jpeg"
-- name: Shreyasee Shail
-  photo: "/static/img/user.jpeg"
-  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
-    massa lorem aliqua.
-- name: Shubhaam Shail
-  photo: "/static/img/user.jpeg"
-  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
-    massa lorem aliqua.
-heading: Meet Our Team
-subheading: Backed with Strong Experience
-members:
 - name: Shreyasee Shail
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
   photo: "/static/img/user.jpeg"

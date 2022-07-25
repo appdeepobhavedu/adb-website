@@ -71,5 +71,14 @@ main:
   image3:
     alt: Coffee beans
     image: "/img/products-grid1.jpg"
+about_college:
+  title: About ADB
+  heading: World class education with world class infrastructure.
+  sub_heading: With competent personnel from the medical sector, the college is aimed
+    to foster holistic education to its students.
+  features:
+  - feature: Career Focussed Approach
+  - feature: Industry Professional Faculties
+  - feature: Extracurricular Activities
 
 ---

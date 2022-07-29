@@ -45,9 +45,9 @@ const Features = () => {
                <div className="features__inner p-relative z-index-1 white-bg">
                   <div className="row">
                      {
-                        featuresData.map(feature => {
+                        featuresData.map((feature, index) => {
                            return <div key={feature.id} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-                              <div className="features__item features__border-right d-sm-flex align-items-start white-bg mb-30">
+                              <div className={`features__item d-sm-flex align-items-start white-bg mb-30 ${featuresData.length -1 === index ? "" : "features__border-right"}`}>
                                  <div className="features__icon mr-25">
                                     {feature.icon_img}
                                  </div>

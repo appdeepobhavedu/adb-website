@@ -6,35 +6,35 @@ const CategoryArea = () => {
    const categoryData = [
       {
          id: 1,
-         title: 'Development',
-         sub_1: 'Python',
-         sub_2: 'Web Development',
-         sub_3: 'Machine Learning',
-         sub_4: 'App Development',
+         title: 'ANM',
+         sub_1: 'Duration: 2 Years',
+         sub_2: 'Seats Available: 60 Seats',
+         sub_3: 'Admission Fee: Rs 24,000(One Time Fee)',
+         sub_4: 'Per Semester Fee: Rs 31,250',
       },
       {
          id: 2,
-         title: 'IT and Softwere',
-         sub_1: 'Cyber Security ',
-         sub_2: 'Visual Studio Code',
-         sub_3: 'AWS Certification',
-         sub_4: 'Ethical Hacking',
+         title: 'GNM',
+         sub_1: 'Duration: 3.5 Years',
+         sub_2: 'Seats Available: 60 Seats',
+         sub_3: 'Admission Fee: Rs 24,000 (One Time Fee)',
+         sub_4: 'Per Semester Fee: Rs 95,850',
       },
       {
          id: 3,
-         title: 'Design',
-         sub_1: 'Advertising ',
-         sub_2: 'UX Design',
-         sub_3: 'History of Art',
-         sub_4: 'Color & Form',
+         title: 'B.Sc. Nursing',
+         sub_1: 'Duration: 4 Years',
+         sub_2: 'Seats Available: 60 Seats',
+         sub_3: 'Admission Fee: Rs 59,000(One Time Fee)',
+         sub_4: 'Per Semester Fee: Rs 86,250',
       },
       {
          id: 4,
-         title: 'Business',
-         sub_1: 'Accounting ',
-         sub_2: 'Financial Analysis',
-         sub_3: 'SQL',
-         sub_4: 'Business statistics',
+         title: 'BHA',
+         sub_1: 'Duration: 4 Years',
+         sub_2: 'Seats Available: 60 Seats',
+         sub_3: 'Admission Fee: Rs 50,000 (One Time Fee)',
+         sub_4: 'Annual Fee: Rs 67,250',
       },
    ]
    return (
@@ -53,7 +53,7 @@ const CategoryArea = () => {
                         <p>Elementum facilisis leo vel est ullamcorper get facilisi.Sagittis orci a purus semper eget.</p>
                         <div className="category__more mb-10">
                            <Link to="/courses">
-                              <button className="tp-btn-5 tp-btn-8">All Categories</button>
+                              <button className="tp-btn-5 tp-btn-8">All Courses</button>
                            </Link>
                         </div>
                      </div>
@@ -68,26 +68,10 @@ const CategoryArea = () => {
                               <h3 className="category__title-3">{category.title}</h3>
                               <div className="category__list">
                                  <ul>
-                                    <li>
-                                       <Link to="/courses">
-                                          <button >{category.sub_1} <i className="fa-regular fa-arrow-right"></i></button>
-                                       </Link>
-                                    </li>
-                                    <li>
-                                       <Link to="/courses">
-                                          <button >{category.sub_2} <i className="fa-regular fa-arrow-right"></i></button>
-                                       </Link>
-                                    </li>
-                                    <li>
-                                       <Link to="/courses">
-                                          <button >{category.sub_3} <i className="fa-regular fa-arrow-right"></i></button>
-                                       </Link>
-                                    </li>
-                                    <li>
-                                       <Link to="/courses">
-                                          <button >{category.sub_4} <i className="fa-regular fa-arrow-right"></i></button>
-                                       </Link>
-                                    </li>
+                                    <li>{category.sub_1}</li>
+                                    <li>{category.sub_2}</li>
+                                    <li>{category.sub_3}</li>
+                                    <li>{category.sub_4}</li>
                                  </ul>
                               </div>
                               <div className="category__btn-3">

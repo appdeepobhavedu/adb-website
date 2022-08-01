@@ -31,13 +31,14 @@ export const IndexPageTemplate = ({
   subheading,
   feature,
   about_college,
+  course_preview,
 }) => {
   const heroImage = getImage(image) || image;
   return (
     <div>
       <HeroArea img={heroImage} title={title} heading={heading} subheading={subheading} />
       <Features featureList={feature} />
-      <CategoryArea />
+      <CategoryArea courseList={course_preview.courses} />
       <AboutArea about_college={about_college} />
       {/*<HomeCourses />*/}
       <Campus />
@@ -102,6 +103,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   about_college: PropTypes.object,
   feature: PropTypes.array,
+  course_preview: PropTypes.object,
 };
 
 const IndexPage = ({ data }) => {
@@ -116,6 +118,7 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         about_college={frontmatter.about_college}
         feature={frontmatter.feature}
+        course_preview={frontmatter.course_preview}
       />
     </Layout>
   );
@@ -149,6 +152,15 @@ export const pageQuery = graphql`
           cta {
             text
             url
+          }
+        }
+        course_preview{
+          courses{
+            title
+            duration
+            seats
+            admission_fee
+            per_semester_fee
           }
         }
         about_college {

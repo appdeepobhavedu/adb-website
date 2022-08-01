@@ -2,31 +2,6 @@
 label: Course Preview
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
-- name: duration
-  type: text
-  config:
-    required: false
-  label: Duration
-- name: seats
-  type: text
-  config:
-    required: false
-  label: Seats
-- name: admission_fee
-  type: text
-  config:
-    required: false
-  label: Admission Fee
-- name: per_semester_fee
-  type: text
-  config:
-    required: false
-  label: Per Semester Fee
 - name: course_preview
   type: field_group_list
   fields:
@@ -35,6 +10,26 @@ fields:
     config:
       required: false
     label: Title
+  - name: duration
+    type: text
+    config:
+      required: false
+    label: Duration
+  - name: seats
+    type: text
+    config:
+      required: false
+    label: Seats
+  - name: admission_fee
+    type: text
+    config:
+      required: false
+    label: Admission Fee
+  - name: per_semester_fee
+    type: text
+    config:
+      required: false
+    label: Per Semester Fee
   config:
     min: 
     max: 

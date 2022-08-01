@@ -1,34 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby";
 
-const CategoryArea = () => {
-   // categoryData
-   const categoryData = [
-      {
-         id: 1,
-         title: 'ANM',
-         sub_1: 'Duration: 2 Years',
-         sub_2: 'Seats Available: 60 Seats',
-         sub_3: 'Admission Fee: Rs 29,000',
-         sub_4: 'Per Semester Fee: Rs 30,000',
-      },
-      {
-         id: 2,
-         title: 'GNM',
-         sub_1: 'Duration: 3 Years and 6 months Internship',
-         sub_2: 'Seats Available: 60 Seats',
-         sub_3: 'Admission Fee: Rs 58,800',
-         sub_4: 'Per Semester Fee: Rs 81,700',
-      },
-      {
-         id: 3,
-         title: 'B.Sc. Nursing',
-         sub_1: 'Duration: 4 Years',
-         sub_2: 'Seats Available: 60 Seats',
-         sub_3: 'Admission Fee: Rs 69,000',
-         sub_4: 'Per Semester Fee: Rs 85,000',
-      },
-   ]
+const CategoryArea = ({courseList}) => {
    return (
       <>
          <section className="category__area pb-90 pt-50">
@@ -54,16 +27,16 @@ const CategoryArea = () => {
                <div className="row">
 
                   {
-                     categoryData.map(category => {
-                        return <div key={category.id} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
+                     courseList.map((category, index) => {
+                        return <div key={index} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                            <div className="category__item-3 fix transition-3 white-bg mb-30">
                               <h3 className="category__title-3">{category.title}</h3>
                               <div className="category__list">
                                  <ul>
-                                    <li>{category.sub_1}</li>
-                                    <li>{category.sub_2}</li>
-                                    <li>{category.sub_3}</li>
-                                    <li>{category.sub_4}</li>
+                                    <li>{category.duration}</li>
+                                    <li>{category.seats}</li>
+                                    <li>{category.admission_fee}</li>
+                                    <li>{category.per_semester_fee}</li>
                                  </ul>
                               </div>
                               <div className="category__btn-3">

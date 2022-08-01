@@ -9,32 +9,24 @@ const CategoryArea = () => {
          title: 'ANM',
          sub_1: 'Duration: 2 Years',
          sub_2: 'Seats Available: 60 Seats',
-         sub_3: 'Admission Fee: Rs 24,000(One Time Fee)',
-         sub_4: 'Per Semester Fee: Rs 31,250',
+         sub_3: 'Admission Fee: Rs 29,000',
+         sub_4: 'Per Semester Fee: Rs 30,000',
       },
       {
          id: 2,
          title: 'GNM',
-         sub_1: 'Duration: 3.5 Years',
+         sub_1: 'Duration: 3 Years and 6 months Internship',
          sub_2: 'Seats Available: 60 Seats',
-         sub_3: 'Admission Fee: Rs 24,000 (One Time Fee)',
-         sub_4: 'Per Semester Fee: Rs 95,850',
+         sub_3: 'Admission Fee: Rs 58,800',
+         sub_4: 'Per Semester Fee: Rs 81,700',
       },
       {
          id: 3,
          title: 'B.Sc. Nursing',
          sub_1: 'Duration: 4 Years',
          sub_2: 'Seats Available: 60 Seats',
-         sub_3: 'Admission Fee: Rs 59,000(One Time Fee)',
-         sub_4: 'Per Semester Fee: Rs 86,250',
-      },
-      {
-         id: 4,
-         title: 'BHA',
-         sub_1: 'Duration: 4 Years',
-         sub_2: 'Seats Available: 60 Seats',
-         sub_3: 'Admission Fee: Rs 50,000 (One Time Fee)',
-         sub_4: 'Annual Fee: Rs 67,250',
+         sub_3: 'Admission Fee: Rs 69,000',
+         sub_4: 'Per Semester Fee: Rs 85,000',
       },
    ]
    return (
@@ -63,7 +55,7 @@ const CategoryArea = () => {
 
                   {
                      categoryData.map(category => {
-                        return <div key={category.id} className="col-xxl-3 col-xl-3 col-lg-4 col-md-6">
+                        return <div key={category.id} className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
                            <div className="category__item-3 fix transition-3 white-bg mb-30">
                               <h3 className="category__title-3">{category.title}</h3>
                               <div className="category__list">

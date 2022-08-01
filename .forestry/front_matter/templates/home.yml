@@ -23,11 +23,31 @@ fields:
 - type: textarea
   name: description
   label: description
+- name: feature_list
+  type: field_group
+  config: {}
+  fields:
+  - name: features
+    type: include
+    config: {}
+    template: features
+    label: Features
+  label: Feature List
 - name: features
   type: include
   config: {}
   template: features
   label: Features
+- name: course_preview
+  type: field_group
+  config: {}
+  fields:
+  - name: courses
+    type: include
+    config: {}
+    template: course-preview
+    label: Courses
+  label: Course Preview
 - name: about_college
   type: field_group
   config: {}
@@ -80,15 +100,5 @@ fields:
       label: path
     label: Link
   label: About College
-- name: course_preview
-  type: field_group
-  config: {}
-  fields:
-  - name: courses
-    type: include
-    config: {}
-    template: course-preview
-    label: Courses
-  label: Course Preview
 pages:
 - src/pages/index.md

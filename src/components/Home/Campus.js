@@ -20,12 +20,12 @@ const Campus = () => {
                      <div className="campus__wrapper">
                         <div className="section__title-wrapper mb-25">
                            <span className="section__title-pre">Campus life</span>
-                           <h2 className="section__title section__title-40">University Campus</h2>
-                           <p>Our research has an impact globally join us in tackling the big issues.</p>
+                           <h2 className="section__title section__title-40">College Campus</h2>
+                           <p>World class education needs world class infrastructure.</p>
                         </div>
                         <div className="campus__btn mb-80">
                            <Link to="/about">
-                              <button className="tp-btn tp-btn-border">More Research</button>
+                              <button className="tp-btn tp-btn-border">View more</button>
                            </Link>
                         </div>
                      </div>

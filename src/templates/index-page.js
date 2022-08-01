@@ -41,9 +41,9 @@ export const IndexPageTemplate = ({
       <AboutArea about_college={about_college} />
       {/*<HomeCourses />*/}
       <Campus />
-      <ResearchArea />
+      {/*<ResearchArea />*/}
       {/*<HomeBlog />*/}
-      <Cta />
+      {/*<Cta />*/}
       {/*<section className="section section--gradient">
         <div className="container">
           <div className="section">

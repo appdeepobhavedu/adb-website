@@ -80,5 +80,23 @@ fields:
       label: path
     label: Link
   label: About College
+- name: course_preview
+  type: field_group
+  config: {}
+  fields:
+  - name: courses
+    type: field_group_list
+    fields:
+    - name: course
+      type: include
+      config: {}
+      template: course-preview
+      label: Course
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Courses
+  label: Course Preview
 pages:
 - src/pages/index.md

@@ -42,8 +42,7 @@ feature:
     text: Learn More
     url: "/about"
   description: Euucal University was established it is recognized.
-course_preview:
-  courses:
+  course_preview:
   - title: B.Sc. Nursing
     duration: 'Duration: 4 Years'
     seats: 'Seats Available: 60 Seats'
@@ -59,11 +58,5 @@ course_preview:
     seats: 'Seats Available: 60 Seats'
     admission_fee: 'Admission Fee: Rs 58,800'
     per_semester_fee: 'Per Semester Fee: Rs 81,700'
-  course_preview:
-  - title: B.Sc. Nursing
-    duration: 'Duration: 4 Years'
-    seats: 'Seats Available: 60 Seats'
-    admission_fee: 'Admission Fee: Rs 69,000'
-    per_semester_fee: 'Per Semester Fee: Rs 85,000'
 
 ---

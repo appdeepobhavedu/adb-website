@@ -18,8 +18,8 @@ import Features from "../components/Home/Features";
 import HeroArea from "../components/Home/HeroArea";
 import CategoryArea from "../components/Home/CategoryArea";
 // import HomeCourses from "../components/Home/HomeCourses";
-import ResearchArea from "../components/Home/ResearchArea";
-import Cta from "../components/Home/Cta";
+// import ResearchArea from "../components/Home/ResearchArea";
+// import Cta from "../components/Home/Cta";
 // import Footer from "../components/common/Footer";
 // import SEO from "../components/seo";
 
@@ -29,14 +29,14 @@ export const IndexPageTemplate = ({
   title,
   heading,
   subheading,
+  feature,
   about_college,
 }) => {
   const heroImage = getImage(image) || image;
-
   return (
     <div>
       <HeroArea img={heroImage} title={title} heading={heading} subheading={subheading} />
-      <Features />
+      <Features featureList={feature} />
       <CategoryArea />
       <AboutArea about_college={about_college} />
       {/*<HomeCourses />*/}
@@ -101,6 +101,7 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   about_college: PropTypes.object,
+  feature: PropTypes.array,
 };
 
 const IndexPage = ({ data }) => {
@@ -114,6 +115,7 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         about_college={frontmatter.about_college}
+        feature={frontmatter.feature}
       />
     </Layout>
   );
@@ -141,6 +143,14 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        feature {
+          title
+          description
+          cta {
+            text
+            url
+          }
+        }
         about_college {
           title
           heading

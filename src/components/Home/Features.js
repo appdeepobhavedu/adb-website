@@ -6,33 +6,14 @@ import img2 from "../../img/features/features-2.svg"
 import img3 from "../../img/features/features-3.svg"
 import img4 from "../../img/features/features-4.svg"
 
-const Features = () => {
-   const featuresData = [
-      {
-         id: 1,
-         icon_img: img1,
-         title: 'Code of Conduct',
-         description: 'Euucal University was established it is recognized.'
-      },
-      {
-         id: 2,
-         icon_img: img2,
-         title: 'Training Perfectionists',
-         description: 'Euucal University was established it is recognized.'
-      },
-      {
-         id: 3,
-         icon_img: img3,
-         title: 'Fighting Stereotypes',
-         description: 'Euucal University was established it is recognized.'
-      },
-      {
-         id: 4,
-         icon_img: img4,
-         title: 'Soft Skill Development',
-         description: 'Euucal University was established it is recognized.'
-      },
-   ]
+const images = [img1, img2, img3, img4]
+
+const Features = ({featureList}) => {
+   const featuresData = featureList.map((feature, index) => {
+      feature.id = index+1;
+      feature.icon_img = images[index]
+      return feature;
+   })
    return (
       <>
          <section className="features__area pb-50">
@@ -48,13 +29,13 @@ const Features = () => {
                                  </div>
                                  <div className="features__content text-center">
                                     <h3 className="features__title">
-                                       <Link to="/about">
+                                       <Link to={feature.cta.url}>
                                           <button>{feature.title}</button>
                                        </Link>
                                     </h3>
                                     <p>{feature.description}</p>
-                                    <Link to="/about">
-                                       <button className="link-btn">Learn More <i className="fa-regular fa-arrow-right"></i></button>
+                                    <Link to={feature.cta.url}>
+                                       <button className="link-btn">{feature.cta.text} <i className="fa-regular fa-arrow-right"></i></button>
                                     </Link>
                                  </div>
                               </div>

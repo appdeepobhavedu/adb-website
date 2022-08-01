@@ -23,6 +23,11 @@ fields:
 - type: textarea
   name: description
   label: description
+- name: features
+  type: include
+  config: {}
+  template: features
+  label: Features
 - name: about_college
   type: field_group
   config: {}

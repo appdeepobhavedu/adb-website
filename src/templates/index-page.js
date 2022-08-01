@@ -38,7 +38,7 @@ export const IndexPageTemplate = ({
     <div>
       <HeroArea img={heroImage} title={title} heading={heading} subheading={subheading} />
       <Features featureList={feature} />
-      <CategoryArea courseList={course_preview.courses} />
+      <CategoryArea courseList={course_preview.course_preview} />
       <AboutArea about_college={about_college} />
       {/*<HomeCourses />*/}
       <Campus />
@@ -155,7 +155,7 @@ export const pageQuery = graphql`
           }
         }
         course_preview{
-          courses{
+          course_preview{
             title
             duration
             seats

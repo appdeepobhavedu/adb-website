@@ -27,3 +27,16 @@ fields:
   config:
     required: false
   label: Per Semester Fee
+- name: course_preview
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Course Preview

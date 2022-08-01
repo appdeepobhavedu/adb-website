@@ -85,17 +85,9 @@ fields:
   config: {}
   fields:
   - name: courses
-    type: field_group_list
-    fields:
-    - name: course
-      type: include
-      config: {}
-      template: course-preview
-      label: Course
-    config:
-      min: 
-      max: 
-      labelField: 
+    type: include
+    config: {}
+    template: course-preview
     label: Courses
   label: Course Preview
 pages:

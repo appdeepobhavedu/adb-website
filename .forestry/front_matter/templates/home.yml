@@ -23,16 +23,6 @@ fields:
 - type: textarea
   name: description
   label: description
-- name: feature_list
-  type: field_group
-  config: {}
-  fields:
-  - name: features
-    type: include
-    config: {}
-    template: features
-    label: Features
-  label: Feature List
 - name: features
   type: include
   config: {}

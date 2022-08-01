@@ -40,7 +40,7 @@ fields:
       label: URL
     label: CTA
   config:
-    min: 0
+    min: 4
     max: 4
     labelField: 
   label: Feature

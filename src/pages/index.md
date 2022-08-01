@@ -58,5 +58,15 @@ feature:
     seats: 'Seats Available: 60 Seats'
     admission_fee: 'Admission Fee: Rs 58,800'
     per_semester_fee: 'Per Semester Fee: Rs 81,700'
+feature_list:
+  feature:
+  - title: Code of Conduct
+    cta:
+      text: Learn More
+      url: "/about"
+    description: Euucal University was established it is recognized.
+    image: ''
+course_preview:
+  course_preview: []
 
 ---

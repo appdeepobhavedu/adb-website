@@ -67,6 +67,11 @@ feature_list:
     description: Euucal University was established it is recognized.
     image: ''
 course_preview:
-  course_preview: []
+  course_preview:
+  - title: hello
+    duration: ''
+    seats: ''
+    admission_fee: ''
+    per_semester_fee: ''
 
 ---

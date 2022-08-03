@@ -9,13 +9,13 @@ team_members:
 - name: Shailendra Kumar
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
     massa lorem aliqua.
-  photo: "/static/img/user.jpeg"
+  photo: "/static/img/shailendra.jpeg"
 - name: Shreyasee Shail
-  photo: "/static/img/user.jpeg"
+  photo: "/static/img/shreyasee.jpeg"
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
     massa lorem aliqua.
 - name: Shubhaam Shail
-  photo: "/static/img/user.jpeg"
+  photo: "/static/img/shubhaam.jpeg"
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
     massa lorem aliqua.
 

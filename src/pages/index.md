@@ -30,8 +30,7 @@ feature:
   cta:
     text: Learn More
     url: "/about"
-  description: Mistakes in medicine can be fatal. As training upcoming medical professionals,
-    we aim for perfectionism.
+  description: As training upcoming medical professionals, we aim for perfectionism.
 - image: ''
   title: Fighting Stereotypes
   cta:

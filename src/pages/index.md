@@ -21,8 +21,7 @@ feature:
 - image: ''
   title: Code of Conduct
   description: The curriculum is designed in a manner that embeds the required code
-    of conduct in our students. A professional in the field of medicine is the greatest
-    service to mankind.
+    of conduct in our students.
   cta:
     text: Learn More
     url: "/about"

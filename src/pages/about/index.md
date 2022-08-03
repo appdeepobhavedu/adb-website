@@ -12,7 +12,7 @@ team_members:
     lorem aliqua.
 - name: Shreyasee Shail
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
-  photo: "/static/img/user.jpeg"
+  photo: "/static/img/whatsapp-image-2022-08-02-at-11-08-29-pm.jpeg"
 - name: Shubhaam Shail
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
   photo: "/static/img/user.jpeg"

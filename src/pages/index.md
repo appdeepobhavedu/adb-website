@@ -20,7 +20,9 @@ description: ''
 feature:
 - image: ''
   title: Code of Conduct
-  description: Euucal University was established it is recognized.
+  description: The curriculum is designed in a manner that embeds the required code
+    of conduct in our students. A professional in the field of medicine is the greatest
+    service to mankind.
   cta:
     text: Learn More
     url: "/about"
@@ -29,19 +31,23 @@ feature:
   cta:
     text: Learn More
     url: "/about"
-  description: Euucal University was established it is recognized.
+  description: Mistakes in medicine can be fatal. As training upcoming medical professionals,
+    we aim for perfectionism.
 - image: ''
   title: Fighting Stereotypes
   cta:
     text: Learn More
     url: "/about"
-  description: Euucal University was established it is recognized.
+  description: Student’s admission to any course is not gender dependent but interest
+    dependent.
 - image: ''
   title: Soft Skill Development
   cta:
     text: Learn More
     url: "/about"
-  description: Euucal University was established it is recognized.
+  description: Networking opportunities, extracurricular activities and interaction
+    with industry experts helps students gain confidence, communication skills and
+    leadership skills.
 course_preview:
   course_preview:
   - title: B.Sc. Nursing

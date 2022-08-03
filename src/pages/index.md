@@ -18,25 +18,25 @@ about_college:
     path: "/about"
 description: ''
 feature:
-- image: "/static/img/code-of-conduct.svg"
+- image: ''
   title: Code of Conduct
   description: Euucal University was established it is recognized.
   cta:
     text: Learn More
     url: "/about"
-- image: "/static/img/training-perfectionists.svg"
+- image: ''
   title: Training Perfectionists
   cta:
     text: Learn More
     url: "/about"
   description: Euucal University was established it is recognized.
-- image: "/static/img/fighting-stereotypes.svg"
+- image: ''
   title: Fighting Stereotypes
   cta:
     text: Learn More
     url: "/about"
   description: Euucal University was established it is recognized.
-- image: "/static/img/soft-skills-development.svg"
+- image: ''
   title: Soft Skill Development
   cta:
     text: Learn More

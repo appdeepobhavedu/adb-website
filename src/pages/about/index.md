@@ -7,7 +7,7 @@ team_heading: Meet Our Team
 team_subheading: Backed with Strong Experience
 team_members:
 - name: Shailendra Kumar
-  photo: "/static/img/user.jpeg"
+  photo: "/static/img/whatsapp-image-2022-08-02-at-6-54-38-pm.jpeg"
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donecmassa
     lorem aliqua.
 - name: Shreyasee Shail

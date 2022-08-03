@@ -44,8 +44,7 @@ feature:
     text: Learn More
     url: "/about"
   description: Networking opportunities, extracurricular activities and interaction
-    with industry experts helps students gain confidence, communication skills and
-    leadership skills.
+    with industry experts.
 course_preview:
   course_preview:
   - title: B.Sc. Nursing

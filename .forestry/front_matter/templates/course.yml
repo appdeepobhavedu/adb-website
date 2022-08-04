@@ -5,9 +5,16 @@ fields:
 - type: text
   name: templateKey
   label: templateKey
+  default: course
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
+- name: duration
+  type: text
+  config:
+    required: false
+  label: Duration
 - type: datetime
   name: date
   label: date
@@ -19,7 +26,7 @@ fields:
   label: featuredimage
 - type: textarea
   name: description
-  label: description
+  label: Description
 - type: list
   name: tags
-  label: tags
+  label: Tags

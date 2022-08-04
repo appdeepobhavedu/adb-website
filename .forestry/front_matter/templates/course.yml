@@ -108,5 +108,4 @@ fields:
   name: tags
   label: Tags
 pages:
-- src/pages/course/app-deepo-bhav.md
 - src/pages/course/bachelor-of-science-in-nursing-b.sc-nursing.md

@@ -10,17 +10,24 @@ fields:
 - type: text
   name: title
   label: Title
+- name: seats
+  type: number
+  label: Seats
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - name: duration
   type: text
   config:
     required: false
   label: Duration
-- type: datetime
-  name: date
-  label: date
 - type: boolean
-  name: featuredpost
-  label: featuredpost
+  name: is_featured
+  label: Is Featured
 - type: file
   name: featuredimage
   label: featuredimage

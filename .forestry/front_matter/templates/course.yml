@@ -10,6 +10,16 @@ fields:
 - type: text
   name: title
   label: Title
+- name: acronym
+  type: text
+  config:
+    required: false
+  label: Acronym
+- name: duration
+  type: text
+  config:
+    required: false
+  label: Duration
 - name: seats
   type: number
   label: Seats
@@ -20,11 +30,71 @@ fields:
     min: 
     max: 
     step: 
-- name: duration
+- name: eligibility
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Eligibility
+- name: application_and_prospectus_fee
   type: text
   config:
     required: false
-  label: Duration
+  label: Application & Prospectus Fee
+  default: '1,000'
+- name: admission_fee
+  type: text
+  config:
+    required: false
+  label: Admission Fee
+- name: per_semester_fee
+  type: text
+  config:
+    required: false
+  label: Per Semester Fee
+- name: total_fee
+  type: text
+  config:
+    required: false
+  label: Total fee
+- name: fee_notes
+  type: textarea
+  default: We also help with loans up to Rs 4,00,000 with the Student Credit Card
+    (DRCC) Scheme for students of Bihar domicile.
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Fee Notes
+- name: hostel_charges
+  type: text
+  config:
+    required: false
+  label: Hostel Charges
+  default: Rs 10,000 per quarter inclusive of meals, lodging and evening tuition (Doubt
+    Solving Sessions)
+- name: course_outcomes
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Course Outcomes
+- name: career_opportunities
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Career Opportunities
 - type: boolean
   name: is_featured
   label: Is Featured

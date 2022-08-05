@@ -1,6 +1,6 @@
 ---
 templateKey: course
-seats: 0
+seats: 
 application_and_prospectus_fee: '1,000'
 fee_notes: We also help with loans up to Rs 4,00,000 with the Student Credit Card
   (DRCC) Scheme for students of Bihar domicile.
@@ -9,27 +9,26 @@ hostel_charges: Rs 10,000 per quarter inclusive of meals, lodging and evening tu
 title: Diploma in Physiotherapy
 acronym: PT
 duration: 2 Years
-eligibility: |-
-  The students are required to fulfil the following criteria for eligibility in a diploma in operation theatre technology
-
-  * 10+2 in science stream with Physics, Chemistry and Biology with a minimum of 50% marks.
-
-  Bihar Diploma Certificate Entrance Competitive Examination (Bihar DCECEB) and other entrance exams scores accepted.
+eligibility: "<p>The students are required to fulfil the following criteria for eligibility
+  in Diploma in Physiotherapy (PT)</p><ul><li><p>10+2 Pass in science stream with
+  Physics, Chemistry and Biology with a minimum of 50% marks</p></li></ul><p>Bihar
+  Diploma Certificate Entrance Competitive Examination (Bihar DCECEB) and other entrance
+  exams scores accepted</p>"
 admission_fee: '19,000'
 per_semester_fee: '25,000'
 total_fee: '1,20,000'
-course_outcomes: |-
-  After the completion of this course the students can expect the following:
-
-  * Comprehend the normal disposition, inter-relationships, gross, functional and applied anatomy of the musculoskeletal system, locomotion, posture, gait and various organs in the body.
-  * Comprehend the basic structure and connections between the various parts of the central nervous system so as to analyze the integrative and regulative functions of the organs and systems. He/She should be able to locate the site of gross lesions according to the deficits encountered.
-  * Identify the microscopic structures of various tissues and organs in the human body and correlate the structure with the functions.
-career_opportunities: |-
-  A few job positions that the students can consider after the completion of the course are:
-
-  * Assistant Physiotherapist
-  * Research Assistant
-  * Orthopaedic Assistant
+course_outcomes: "<p>After the completion of this course the students can expect the
+  following:</p><ul><li><p>Comprehend the normal disposition, inter-relationships,
+  gross, functional and applied anatomy of the musculoskeletal system, locomotion,
+  posture, gait and various organs in the body.</p></li><li><p>Comprehend the basic
+  structure and connections between the various parts of the central nervous system
+  so as to analyze the integrative and regulative functions of the organs and systems.
+  He/She should be able to locate the site of gross lesions according to the deficits
+  encountered.</p></li><li><p>Identify the microscopic structures of various tissues
+  and organs in the human body and correlate the structure with the functions.</p></li></ul>"
+career_opportunities: "<p>A few job positions that the students can consider after
+  the completion of the course are</p><ul><li><p>Assistant Physiotherapist</p></li><li><p>Research
+  Assistant</p></li><li><p>Orthopaedic Assistant</p></li></ul>"
 is_featured: false
 featuredimage: ''
 description: ''

@@ -17,7 +17,7 @@ const CategoryArea = ({courseList}) => {
                      <div className="category__wrapper-3 mb-60 d-sm-flex align-items-end justify-content-between">
                         <p>Our course follows a holistic approach starting with extreme basics and then going up to intermediate and then expert level content.</p>
                         <div className="category__more mb-10">
-                           <Link to="/courses">
+                           <Link to="/course">
                               <button className="tp-btn-5 tp-btn-8">All Courses</button>
                            </Link>
                         </div>
@@ -40,7 +40,7 @@ const CategoryArea = ({courseList}) => {
                                  </ul>
                               </div>
                               <div className="category__btn-3">
-                                 <Link to="/courses">
+                                 <Link to="/course">
                                     <button className="tp-btn-9 w-100">Explore</button>
                                  </Link>
                               </div>

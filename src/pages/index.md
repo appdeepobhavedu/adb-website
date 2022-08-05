@@ -45,22 +45,5 @@ feature:
     url: "/about"
   description: Networking opportunities, extracurricular activities and interaction
     with industry experts.
-course_preview:
-  course_preview:
-  - title: B.Sc. Nursing
-    duration: 'Duration: 4 Years'
-    seats: 'Seats Available: 60 Seats'
-    admission_fee: 'Admission Fee: Rs 69,000'
-    per_semester_fee: 'Per Semester Fee: Rs 85,000'
-  - title: ANM
-    duration: 'Duration: 2 Years'
-    seats: 'Seats Available: 60 Seats'
-    admission_fee: 'Admission Fee: Rs 29,000'
-    per_semester_fee: 'Per Semester Fee: Rs 30,000'
-  - title: GNM
-    duration: 'Duration: 3 Years and 6 months Internship'
-    seats: 'Seats Available: 60 Seats'
-    admission_fee: 'Admission Fee: Rs 58,800'
-    per_semester_fee: 'Per Semester Fee: Rs 81,700'
 
 ---

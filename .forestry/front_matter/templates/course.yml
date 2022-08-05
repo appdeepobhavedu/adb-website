@@ -37,7 +37,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Eligibility
 - name: application_and_prospectus_fee
   type: text
@@ -84,7 +84,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Course Outcomes
 - name: career_opportunities
   type: textarea
@@ -93,7 +93,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Career Opportunities
 - type: boolean
   name: is_featured

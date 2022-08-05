@@ -9,43 +9,31 @@ hostel_charges: Rs 10,000 per quarter inclusive of meals, lodging and evening tu
 title: Auxiliary Nurse Midwifery
 acronym: ANM
 duration: 2 Years
-eligibility: |-
-  The students are required to fulfil the following criteria for eligibility in Auxiliary Nurse Midwifery (ANM):
-
-  * This course is for girls only.
-  * 10+2 pass in Science or Commerce or Arts stream from any recognized board
-  * The minimum age required is 17 years as on 31st December in which admission is sought. The maximum age limit is 35 years.
-
-  Admissions are also based on Bihar ANM Entrance Examination.
+eligibility: "<p>The students are required to fulfil the following criteria for eligibility
+  in Auxiliary Nurse Midwifery (ANM):</p><ul><li><p>This course is for girls only.</p></li><li><p>10+2
+  pass in Science or Commerce or Arts stream from any recognized board.</p></li><li><p>The
+  minimum age required is 17 years as on 31st December in which admission is sought.
+  The maximum age limit is 35 years.</p></li></ul><p>Admissions are also based on
+  Bihar ANM Entrance Examination.</p>"
 admission_fee: '29,000'
 per_semester_fee: '30,000'
 total_fee: '1,50,000'
-course_outcomes: |-
-  After the completion of this course the student:
-
-  * Is professionally competent to meet the health needs of the individual and the community.
-  * Is skilful in providing quality nursing care based on problem solving approach.
-  * Is capable of practising and guiding others to render a high standard of nursing care.
-  * Is able to demonstrate responsibility & accountability in promoting the standards of nursing service.
-  * Is competent to function as an effective health team member.
-  * Is able to assume greater responsibilities and leadership in various health care settings.
-  * Is seeking opportunities for continual growth & self evaluation as a person, citizen and a professional.
-career_opportunities: |-
-  A few job positions that the students can consider after the completion of the course are
-
-  * Basic Community Health Worker
-  * Certified Nursing Assistant
-  * Midwifery
-  * Home Nurse
-  * ICU Nurse
-  * Military Nurse
-  * Government Hospital Nurse
-  * Old Age Nursing Home Nurse
-  * Teacher in a Nursing School
-  * Clinical Researcher
-  * Clinical Nurse
-  * Staff Nurse
-  * Industrial Nurse
+course_outcomes: "<p>After the completion of this course the student:</p><ul><li><p>Is
+  professionally competent to meet the health needs of the individual and the community.</p></li><li><p>Is
+  skilful in providing quality nursing care based on problem solving approach.</p></li><li><p>Is
+  capable of practising and guiding others to render a high standard of nursing care.</p></li><li><p>Is
+  able to demonstrate responsibility &amp; accountability in promoting the standards
+  of nursing service.</p></li><li><p>Is competent to function as an effective health
+  team member.</p></li><li><p>Is able to assume greater responsibilities and leadership
+  in various health care settings.</p></li><li><p>Is seeking opportunities for continual
+  growth &amp; self evaluation as a person, citizen and a professional.</p></li></ul>"
+career_opportunities: "<p>A few job positions that the students can consider after
+  the completion of the course are:</p><ul><li><p>Basic Community Health Worker</p></li><li><p>Certified
+  Nursing Assistant</p></li><li><p>Midwifery</p></li><li><p>Home Nurse</p></li><li><p>ICU
+  Nurse</p></li><li><p>Military Nurse</p></li><li><p>Government Hospital Nurse</p></li><li><p>Old
+  Age Nursing Home Nurse</p></li><li><p>Teacher in a Nursing School</p></li><li><p>Clinical
+  Researcher</p></li><li><p>Clinical Nurse</p></li><li><p>Staff Nurse</p></li><li><p>Industrial
+  Nurse</p></li></ul>"
 is_featured: true
 featuredimage: "/static/img/chemex.jpeg"
 description: ''

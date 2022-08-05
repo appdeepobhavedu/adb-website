@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Content, { HTMLContent } from "../components/Content";
+import { HTMLContent } from "../components/Content";
 
 const DetailsTabItems = ({
    dynamicPage,
@@ -39,19 +39,19 @@ const DetailsTabItems = ({
                <div className={`tab-pane fade ${tab === 1 ? "show active" : ""}`} id="curriculum" role="tabpanel" aria-labelledby="curriculum-tab">
                   <div className="p-20">
                      <h3>Eligibility Criteria</h3>
-                     <Content content={eligibility} />
+                     <HTMLContent content={eligibility} />
                   </div>
                </div>
                <div className={`tab-pane fade ${tab === 2 ? "show active" : ""}`} id="review" role="tabpanel" aria-labelledby="review-tab">
                   <div className="p-20">
                      <h3>Course Outcomes</h3>
-                     <Content content={course_outcomes} />
+                     <HTMLContent content={course_outcomes} />
                   </div>
                </div>
                <div className={`tab-pane fade ${tab === 3 ? "show active" : ""}`} id="member" role="tabpanel" aria-labelledby="member-tab">
                   <div className="p-20">
                      <h3>Career Opportunities</h3>
-                     <Content content={career_opportunities} />
+                     <HTMLContent content={career_opportunities} />
                   </div>
                </div>
             </div>

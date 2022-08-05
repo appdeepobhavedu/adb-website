@@ -51,7 +51,7 @@ career_opportunities: |-
   * Military Nurse
   * Nursing Advocate
   * Staff Nurse
-is_featured: false
+is_featured: true
 featuredimage: ''
 description: ''
 tags: []

@@ -11,9 +11,7 @@ acronym: BHA
 duration: 3 Years
 eligibility: "<p>The students are required to fulfil the following criteria for eligibility
   in Bachelor in Hospital Management (BHA)</p><ul><li><p>10+2 Pass in science stream
-  with Physics, Chemistry and Biology with a minimum of 50% marks</p></li></ul><p>Bihar
-  Diploma Certificate Entrance Competitive Examination (Bihar DCECEB) and other entrance
-  exams scores accepted</p>"
+  with Physics, Chemistry and Biology with a minimum of 50% marks</p></li></ul>"
 admission_fee: '58,000'
 per_semester_fee: '43,500'
 total_fee: '3,20,000'

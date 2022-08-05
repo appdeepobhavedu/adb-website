@@ -102,6 +102,23 @@ const Navbar = class extends React.Component {
                                     About Trust
                                   </Link>
                                 </li>
+                                <li className='has-dropdown'>
+                                    <Link to="/course">Courses</Link>
+                                    <ul className="submenu">
+                                       <li>
+                                          <Link to="/course/anm">ANM</Link>
+                                       </li>
+                                       <li>
+                                          <Link to="/course/anm">ANM</Link>
+                                       </li>
+                                       <li>
+                                          <Link to="/course/anm">ANM</Link>
+                                       </li>
+                                       <li>
+                                          <Link to="/course/anm">ANM</Link>
+                                       </li>
+                                   </ul>
+                                </li>
                                 <li>
                                   <Link className="navbar-item" to="/contact">
                                     Contact Us

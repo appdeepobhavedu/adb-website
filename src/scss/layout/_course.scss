@@ -344,20 +344,15 @@
         }
     }
     &__tutor{
+        display: inline-block;
+        padding: 5px;
+        padding-right: 20px;
+        border: 2px solid rgba($color: #4356FF, $alpha: .1);
+        @include border-radius(22px);
+        color: var(--tp-text-1);
+        font-weight: 500;
         @media #{$xs}{
             margin-bottom: 15px;
-        }
-        & a{
-            display: inline-block;
-            padding: 5px;
-            padding-right: 20px;
-            border: 2px solid rgba($color: #4356FF, $alpha: .1);
-            @include border-radius(22px);
-            color: var(--tp-text-1);
-            font-weight: 500;
-            &:hover{
-                color: var(--tp-theme-1)
-            }
         }
         & img{
             width: 26px;

@@ -4,7 +4,7 @@ seats: 60
 title: Bachelor of Science in Nursing
 duration: 4 years
 is_featured: true
-featuredimage: ''
+featuredimage: "/static/img/chemex.jpeg"
 description: ''
 tags: []
 acronym: B.Sc Nursing

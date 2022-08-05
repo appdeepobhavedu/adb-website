@@ -1,5 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
+import PropTypes from 'prop-types'
+import { Link, graphql, StaticQuery } from 'gatsby'
+
 import logo from "../img/logo.jpg";
 
 const Navbar = class extends React.Component {
@@ -32,6 +34,10 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    const { data } = this.props
+    // console.log("data.allMarkdownRemark", data.allMarkdownRemark)
+    const { edges: courses } = data.allMarkdownRemark
+
     return (
       <header>
          <div className="header__area">
@@ -105,18 +111,17 @@ const Navbar = class extends React.Component {
                                 <li className='has-dropdown'>
                                     <Link to="/course">Courses</Link>
                                     <ul className="submenu">
-                                       <li>
-                                          <Link to="/course/anm">ANM</Link>
+                                    {
+
+                                       courses.map((course, index) => {
+                                         // console.log("course", course.node.frontmatter)
+                                         const {acronym} = course.node.frontmatter;
+                                         const slug = course.node.fields.slug;
+                                         return <li>
+                                          <Link to={slug}>{acronym}</Link>
                                        </li>
-                                       <li>
-                                          <Link to="/course/anm">ANM</Link>
-                                       </li>
-                                       <li>
-                                          <Link to="/course/anm">ANM</Link>
-                                       </li>
-                                       <li>
-                                          <Link to="/course/anm">ANM</Link>
-                                       </li>
+                                       })
+                                    }
                                    </ul>
                                 </li>
                                 <li>
@@ -143,4 +148,38 @@ const Navbar = class extends React.Component {
   }
 };
 
-export default Navbar;
+CourseRoll.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+}
+
+
+export default function CourseRoll() {
+  return (
+    <StaticQuery
+      query={graphql`
+        query NavRollQuery {
+          allMarkdownRemark(
+            sort: { order: DESC, fields: [frontmatter___date] }
+            filter: { frontmatter: { templateKey: { eq: "course" } } }
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                frontmatter {
+                  acronym
+                }
+              }
+            }
+          }
+        }
+      `}
+      render={(data, count) => <Navbar data={data} count={count} />}
+    />
+  );
+}

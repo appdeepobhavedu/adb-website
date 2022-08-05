@@ -72,7 +72,7 @@ class CourseRollTemplate extends React.Component {
   }
 }
 
-BlogRoll.propTypes = {
+CourseRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -81,7 +81,7 @@ BlogRoll.propTypes = {
 }
 
 
-export default function BlogRoll() {
+export default function CourseRoll() {
   return (
     <StaticQuery
       query={graphql`

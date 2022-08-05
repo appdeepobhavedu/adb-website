@@ -7,13 +7,18 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
 // eslint-disable-next-line
-export const BlogPostTemplate = ({
+export const CourseTemplate = ({
   content,
   contentComponent,
   description,
   tags,
   title,
   helmet,
+  is_featured,
+  duration,
+  seats,
+  admission_fee,
+  per_semester_fee,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -26,6 +31,7 @@ export const BlogPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
+            <p>Duration: {duration}</p>
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
@@ -47,7 +53,7 @@ export const BlogPostTemplate = ({
   );
 };
 
-BlogPostTemplate.propTypes = {
+CourseTemplate.propTypes = {
   content: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
@@ -60,7 +66,7 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
-      <BlogPostTemplate
+      <CourseTemplate
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
@@ -75,6 +81,11 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        is_featured={post.frontmatter.is_featured}
+        duration={post.frontmatter.duration}
+        seats={post.frontmatter.seats}
+        admission_fee={post.frontmatter.admission_fee}
+        per_semester_fee={post.frontmatter.per_semester_fee}
       />
     </Layout>
   );
@@ -98,6 +109,11 @@ export const pageQuery = graphql`
         title
         description
         tags
+        is_featured
+        duration
+        seats
+        admission_fee
+        per_semester_fee
       }
     }
   }

@@ -43,12 +43,8 @@ class CourseRollTemplate extends React.Component {
                             {/*{title.substring(0, 30)}..*/}
                           </Link>
                         </h3>
-                        <p>A beginner’s guide to designing or renovating interior spaces that pop.</p>
 
                         <div className="course__bottom d-sm-flex align-items-center justify-content-between">
-                          <div className="course__tutor">
-                              Seats: {seats}
-                          </div>
                           <div className="course__lesson">
                             <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M1 12.2V4.49999C1 1.7 1.70588 1 4.52941 1H9.47059C12.2941 1 13 1.7 13 4.49999V11.5C13 11.598 13 11.696 12.9929 11.794" stroke="#49535B" strokeLinecap="round" strokeLinejoin="round" />
@@ -58,6 +54,13 @@ class CourseRollTemplate extends React.Component {
                             </svg>
                               Duration: {duration}
                           </div>
+                          {
+                            seats?
+                            <div className="course__tutor">
+                                Seats: {seats}
+                            </div>
+                            : null
+                          }
                         </div>
                       </div>
                     </div>

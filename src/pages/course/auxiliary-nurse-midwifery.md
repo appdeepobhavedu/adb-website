@@ -47,7 +47,7 @@ career_opportunities: |-
   * Staff Nurse
   * Industrial Nurse
 is_featured: true
-featuredimage: ''
+featuredimage: "/static/img/chemex.jpeg"
 description: ''
 tags: []
 

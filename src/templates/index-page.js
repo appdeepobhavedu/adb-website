@@ -31,14 +31,13 @@ export const IndexPageTemplate = ({
   subheading,
   feature,
   about_college,
-  course_preview,
 }) => {
   const heroImage = getImage(image) || image;
   return (
     <div>
       <HeroArea img={heroImage} title={title} heading={heading} subheading={subheading} />
       <Features featureList={feature} />
-      <CourseArea courseList={course_preview.course_preview} />
+      <CourseArea />
       <AboutArea about_college={about_college} />
       {/*<HomeCourses />*/}
       <Campus />
@@ -118,7 +117,6 @@ const IndexPage = ({ data }) => {
         subheading={frontmatter.subheading}
         about_college={frontmatter.about_college}
         feature={frontmatter.feature}
-        course_preview={frontmatter.course_preview}
       />
     </Layout>
   );
@@ -152,15 +150,6 @@ export const pageQuery = graphql`
           cta {
             text
             url
-          }
-        }
-        course_preview{
-          course_preview{
-            title
-            duration
-            seats
-            admission_fee
-            per_semester_fee
           }
         }
         about_college {

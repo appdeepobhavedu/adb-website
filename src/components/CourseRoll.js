@@ -25,7 +25,7 @@ class CourseRollTemplate extends React.Component {
                     <div className="course__item white-bg transition-3 mb-30">
                       <div className="course__thumb w-img fix course_thumb_height">
                         <Link to={slug}>
-                            <img src={img_bg} alt="" />
+                            <img src="https://via.placeholder.com/318x230/AEAEAE" alt="" />
                         </Link>
                       </div>
                       <div className="course__content p-relative">

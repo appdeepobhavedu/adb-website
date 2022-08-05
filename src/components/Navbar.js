@@ -117,7 +117,7 @@ const Navbar = class extends React.Component {
                                          // console.log("course", course.node.frontmatter)
                                          const {acronym} = course.node.frontmatter;
                                          const slug = course.node.fields.slug;
-                                         return <li>
+                                         return <li key={index}>
                                           <Link to={slug}>{acronym}</Link>
                                        </li>
                                        })

@@ -109,4 +109,8 @@ fields:
   label: Tags
 pages:
 - src/pages/course/auxiliary-nurse-midwifery.md
-- src/pages/course/bachelor-of-science-in-nursing-b.sc-nursing.md
+- src/pages/course/bachelor-in-hospital-management.md
+- src/pages/course/diploma-in-medical-laboratory-technology.md
+- src/pages/course/diploma-in-operation-theatre-technology.md
+- src/pages/course/diploma-in-physiotherapy.md
+- src/pages/course/general-nurse-midwifery.md

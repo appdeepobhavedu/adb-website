@@ -18,7 +18,7 @@ class CourseRollTemplate extends React.Component {
               {
                 courses.map((course, index) => {
                   // console.log("course", course.node.frontmatter)
-                  const {img_bg = logo, price = 300, category = 'life', title = 'hello', teacher_img = logo, tutor_name = 'name name', lessons = '12'} = course.node.frontmatter;
+                  const {title, duration, seats, img_bg = logo} = course.node.frontmatter;
                   const slug = course.node.fields.slug;
                   // console.log("slug", slug)
                   return <div key={index} className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
@@ -29,24 +29,25 @@ class CourseRollTemplate extends React.Component {
                         </Link>
                       </div>
                       <div className="course__content p-relative">
-                        <div className="course__price">
+                        {/*<div className="course__price">
                           <span>${price}</span>
-                        </div>
-                        <div className="course__tag">
+                        </div>*/}
+                        {/*<div className="course__tag">
                           <Link to={slug}>
                             {category}
                           </Link>
-                        </div>
+                        </div>*/}
                         <h3 className="course__title">
                           <Link to={slug}>
-                            {title.substring(0, 30)}..
+                            {title}
+                            {/*{title.substring(0, 30)}..*/}
                           </Link>
                         </h3>
                         <p>A beginner’s guide to designing or renovating interior spaces that pop.</p>
 
                         <div className="course__bottom d-sm-flex align-items-center justify-content-between">
                           <div className="course__tutor">
-                              <img src={teacher_img} alt="" />{tutor_name}
+                              Seats: {seats}
                           </div>
                           <div className="course__lesson">
                             <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -55,7 +56,7 @@ class CourseRollTemplate extends React.Component {
                               <path d="M4.17647 4.5H9.82353" stroke="#49535B" strokeLinecap="round" strokeLinejoin="round" />
                               <path d="M4.17647 6.94995H7.70589" stroke="#49535B" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
-                              {lessons} Lessons
+                              Duration: {duration}
                           </div>
                         </div>
                       </div>
@@ -98,6 +99,8 @@ export default function BlogRoll() {
                 }
                 frontmatter {
                   title
+                  duration
+                  seats
                   templateKey
                   date(formatString: "MMMM DD, YYYY")
                   featuredpost

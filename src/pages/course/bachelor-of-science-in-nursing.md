@@ -2,7 +2,7 @@
 templateKey: course
 seats: 60
 title: Bachelor of Science in Nursing
-duration: 4 years
+duration: 4 Years
 is_featured: true
 featuredimage: "/static/img/chemex.jpeg"
 description: ''

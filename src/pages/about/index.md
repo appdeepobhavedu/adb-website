@@ -10,7 +10,7 @@ team_members:
   photo: "/static/img/shailendra.jpeg"
   intro: Chairman
 - name: Shreyasee Shail
-  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
+  intro: Vice Chairman
   photo: "/static/img/shreyasee.jpeg"
 - name: Shubhaam Shail
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec

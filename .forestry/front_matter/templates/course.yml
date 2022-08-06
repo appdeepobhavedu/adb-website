@@ -9,7 +9,7 @@ fields:
   hidden: true
 - name: order
   type: number
-  label: Order
+  label: Sequence Order
   description: ''
   default: 0
   required: true

@@ -8,7 +8,7 @@ hostel_charges: Rs 10,000 per quarter inclusive of meals, lodging and evening tu
   (Doubt Solving Sessions)
 title: General Nurse Midwifery
 acronym: GNM
-duration: 3.5 Years
+duration: 3 Years + 6 Months Internship Period
 eligibility: "<p>The students are required to fulfil the following criteria for eligibility
   in General Nurse Midwifery (GNM)</p><ul><li><p>10+2 pass with a minimum of 40% in
   qualifying exam and English individually from any recognized board.</p></li><li><p>Students
@@ -42,6 +42,8 @@ is_featured: true
 featuredimage: ''
 description: ''
 tags: []
+order: 3
+duration_phrase: ''
 
 ---
 General Nursing Midwifery or GNM is best suited for students aspiring to pursue their careers in clinical nursing. Students of this diploma are trained for various situations like emergency response, clinical treatment and patient’s care. 

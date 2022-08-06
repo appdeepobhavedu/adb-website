@@ -38,6 +38,8 @@ is_featured: true
 featuredimage: "/static/img/chemex.jpeg"
 description: ''
 tags: []
+order: 1
+duration_phrase: ''
 
 ---
 Auxiliary Nurse Midwifery was created in India in 1966 by the Mukherjee Committee to spread the concept of health care in rural areas. During the 1950s and 1960s, ANM training was primarily focused on midwifery and maternal and child care. The bigger components of the ANM were later evaluated based on the recommendation.

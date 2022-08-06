@@ -43,7 +43,7 @@ featuredimage: ''
 description: ''
 tags: []
 order: 3
-duration_phrase: 3 Years + 6 Months Internship Period
+duration_phrase: 3 Years + 6 Months Internship
 
 ---
 General Nursing Midwifery or GNM is best suited for students aspiring to pursue their careers in clinical nursing. Students of this diploma are trained for various situations like emergency response, clinical treatment and patient’s care. 

@@ -14,7 +14,7 @@ const Footer = class extends React.Component {
        <>
           <footer>
              <div className="footer__area">
-                <div className={`footer__top grey-bg-4 pt-95 pb-45 ${white_bg && white_bg}`}>
+                <div className={`footer__top pt-95 pb-45 ${white_bg && white_bg}`}>
                    <div className="container">
                       <div className="row">
                          <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
@@ -103,7 +103,7 @@ const Footer = class extends React.Component {
                       </div>
                    </div>
                 </div>
-                <div className={`footer__bottom grey-bg-4 ${white_bg && white_bg}`}>
+                <div className={`footer__bottom ${white_bg && white_bg}`}>
                    <div className="container">
                       <div className="footer__bottom-inner">
                          <div className="row">

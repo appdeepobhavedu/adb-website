@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
+import Sidebar from './Sidebar'
 
 import logo from "../img/logo.jpg";
 
@@ -8,37 +9,17 @@ const Navbar = class extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      active: false,
-      navBarActiveClass: "",
+      show: false,
     };
   }
 
-  toggleHamburger() {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: "is-active",
-            })
-          : this.setState({
-              navBarActiveClass: "",
-            });
-      }
-    );
-  }
-
   render() {
+    const _this = this;
     const { data } = this.props
     // console.log("data.allMarkdownRemark", data.allMarkdownRemark)
     const { edges: courses } = data.allMarkdownRemark
-
     return (
+      <>
       <header>
          <div className="header__area">
             <div className="header__top header__border d-none d-md-block">
@@ -135,7 +116,12 @@ const Navbar = class extends React.Component {
                      </div>
                      <div className="col-xxl-3 col-xl-3 col-lg-2 col-md-6 col-6">
                         <div className="header__bottom-right d-flex justify-content-end align-items-center pl-30">
-                           <div className="header__hamburger ml-50 d-xl-none">
+                           <div className="header__hamburger ml-50 d-lg-none">
+                            <button type="button" className="hamurger-btn" onClick={() => {_this.setState({show: true})}} >
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                            </button>
                            </div>
                         </div>
                      </div>
@@ -144,6 +130,8 @@ const Navbar = class extends React.Component {
             </div>
          </div>
       </header>
+      <Sidebar show={_this.state.show} courses={courses} handleClose={() => {_this.setState({show: false})}} />
+      </>
     );
   }
 };

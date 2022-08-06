@@ -37,6 +37,8 @@ is_featured: false
 featuredimage: ''
 description: ''
 tags: []
+order: 4
+duration_phrase: ''
 
 ---
 With the importance of cultivating young leaders for the future, this course lays the foundation for that. The rising potential of Hospital Management has shifted students' interest in healthcare management. 

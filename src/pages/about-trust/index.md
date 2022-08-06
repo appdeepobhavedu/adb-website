@@ -14,8 +14,7 @@ team_members:
   intro: Vice Chairman
 - name: Shubhaam Shail
   photo: "/static/img/shubhaam.jpeg"
-  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
-    massa lorem aliqua.
+  intro: Director
 
 ---
 App Deepo Bhav Educational and Health Charitable Trust was founded in 2017 by a group of passionate changemakers. With the belief of ‘excellence, service and integrity’ App Deepo Bhav has its strong foundations rooted.

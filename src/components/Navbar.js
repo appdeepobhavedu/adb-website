@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import Sidebar from './Sidebar'
+import Sidebar from '../components/Sidebar'
 
 import logo from "../img/logo.jpg";
 

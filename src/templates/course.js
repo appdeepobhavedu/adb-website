@@ -326,7 +326,7 @@ export const CourseTemplate = ({
                   </div>*/}
 
 
-                  {/*<button onClick={() => dispatch(addToCart(courseData))} type="button" className="tp-btn w-100 text-center my-3">Add To Cart <i className="fa-solid fa-cart-shopping ms-3"></i> </button>*/}
+                  <a href={`/pdf/${acronym}.pdf`} download className="tp-btn w-100 text-center my-3">Download Application Form</a>
 
                   {/*<div className="course__enroll-btn">
                     {

@@ -8,8 +8,7 @@ team_subheading: Backed with Strong Experience
 team_members:
 - name: Shailendra Kumar
   photo: "/static/img/shailendra.jpeg"
-  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donecmassa
-    lorem aliqua.
+  intro: Chairman
 - name: Shreyasee Shail
   intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
   photo: "/static/img/shreyasee.jpeg"

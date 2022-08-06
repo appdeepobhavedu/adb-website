@@ -60,7 +60,7 @@ const Footer = class extends React.Component {
                                         <Link to="/contact">Location</Link>
                                      </li>
                                      <li>
-                                        <Link to="/pdf/ADB-brochure-web-version.pdf" download>Download Prospectus</Link>
+                                        <a href="/pdf/ADB-brochure-web-version.pdf" download>Download Prospectus</a>
                                      </li>
                                   </ul>
                                </div>

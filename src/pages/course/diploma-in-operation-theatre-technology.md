@@ -35,6 +35,8 @@ is_featured: false
 featuredimage: ''
 description: ''
 tags: []
+order: 5
+duration_phrase: ''
 
 ---
 A diploma in operation theatre technology is a popular paramedical study. This makes the aspirants capable of working in operation theatre by equipping them with knowledge of preparation of operation theatre, sterilization, equipment maintenance and assisting the nurses and surgeons. 

@@ -1,10 +1,14 @@
-import * as React from "react";
-import { Link } from "gatsby";
+import React from "react";
+import PropTypes from 'prop-types'
+import { Link, graphql, StaticQuery } from 'gatsby'
 
 import logo from "../img/logo.jpg";
 
 const Footer = class extends React.Component {
   render() {
+    const { data } = this.props
+    // console.log("data.allMarkdownRemark", data.allMarkdownRemark)
+    const { edges: courses } = data.allMarkdownRemark
     let white_bg = ''
     return (
        <>
@@ -13,7 +17,7 @@ const Footer = class extends React.Component {
                 <div className={`footer__top grey-bg-4 pt-95 pb-45 ${white_bg && white_bg}`}>
                    <div className="container">
                       <div className="row">
-                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
+                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12">
                             <div className="footer__widget footer-col-1 mb-50">
                                <div className="footer__logo">
                                   <div className="logo">
@@ -38,57 +42,64 @@ const Footer = class extends React.Component {
                                </div>
                             </div>
                          </div>
-                         <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-5">
-                            <div className="footer__widget mb-50">
-                               <h3 className="footer__widget-title">Explore</h3>
-                               <div className="footer__widget-content">
-                                  <ul>
-                                     <li>
-                                        <a href="/about">About us</a>
-                                     </li>
-                                     <li>
-                                        <a href="/about-trust">About Trust</a>
-                                     </li>
-                                     <li>
-                                        <a href="/contact">Contact Us</a>
-                                     </li>
-                                  </ul>
-                               </div>
-                            </div>
-                         </div>
-                         <div className="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-5">
+                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-3 col-sm-6">
                             <div className="footer__widget mb-50">
                                <h3 className="footer__widget-title">Links</h3>
                                <div className="footer__widget-content">
                                   <ul>
                                      <li>
-                                        <a href="/about">About us</a>
+                                        <Link to="/about">About us</Link>
                                      </li>
                                      <li>
-                                        <a href="/about-trust">About Trust</a>
+                                        <Link to="/about-trust">About Trust</Link>
                                      </li>
                                      <li>
-                                        <a href="/contact">Contact Us</a>
+                                        <Link to="/contact">Contact Us</Link>
+                                     </li>
+                                     <li>
+                                        <Link to="/contact">Location</Link>
+                                     </li>
+                                     <li>
+                                        <Link to="/pdf/ADB-brochure-web-version.pdf" download>Download Prospectus</Link>
                                      </li>
                                   </ul>
                                </div>
                             </div>
                          </div>
-                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
-                            <div className="footer__widget footer-col-4 mb-50">
-                               <h3 className="footer__widget-title">Sign up for our newsletter</h3>
-
-                               <div className="footer__subscribe">
-                                  <p>Receive weekly newsletter with educational materials, popular books and much more!</p>
-                                  <form action="#">
-                                     <div className="footer__subscribe-input">
-                                        <input type="text" placeholder="Email" />
-                                        <button type="submit" className="tp-btn-subscribe">Subscribe</button>
-                                     </div>
-                                  </form>
+                         <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-3 col-sm-6">
+                            <div className="footer__widget mb-50">
+                               <h3 className="footer__widget-title">Explore Courses</h3>
+                               <div className="footer__widget-content">
+                                  <ul>
+                                    {
+                                       courses.map((course, index) => {
+                                          // console.log("course", course.node.frontmatter)
+                                          const {title} = course.node.frontmatter;
+                                          const slug = course.node.fields.slug;
+                                          return <li key={index}>
+                                             <Link to={slug}>{title}</Link>
+                                          </li>
+                                       })
+                                    }
+                                  </ul>
                                </div>
                             </div>
                          </div>
+                         {/*<div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-7">
+                          <div className="footer__widget footer-col-4 mb-50">
+                             <h3 className="footer__widget-title">Sign up for our newsletter</h3>
+
+                             <div className="footer__subscribe">
+                                <p>Receive weekly newsletter with educational materials, popular books and much more!</p>
+                                <form action="#">
+                                   <div className="footer__subscribe-input">
+                                      <input type="text" placeholder="Email" />
+                                      <button type="submit" className="tp-btn-subscribe">Subscribe</button>
+                                   </div>
+                                </form>
+                             </div>
+                          </div>
+                       </div>*/}
                       </div>
                    </div>
                 </div>
@@ -112,4 +123,38 @@ const Footer = class extends React.Component {
   }
 };
 
-export default Footer;
+CourseRoll.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+}
+
+
+export default function CourseRoll() {
+  return (
+    <StaticQuery
+      query={graphql`
+        query FooterRollQuery {
+          allMarkdownRemark(
+            sort: { order: ASC, fields: [frontmatter___order] }
+            filter: { frontmatter: { templateKey: { eq: "course" } } }
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                }
+              }
+            }
+          }
+        }
+      `}
+      render={(data, count) => <Footer data={data} count={count} />}
+    />
+  );
+}

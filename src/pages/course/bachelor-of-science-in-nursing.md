@@ -49,6 +49,7 @@ career_opportunities: "<p>A few job positions that the students can consider aft
   Nurse</p></li><li><p>Nursing Superintendent</p></li><li><p>Community Health Nurse
   (CHN)</p></li><li><p>Department Supervisor</p></li><li><p>Nursing Supervisor or
   Ward Sister</p></li><li><p>Clinical Researcher</p></li><li><p>Nursing Advocate</p></li></ul>"
+order: 1
 
 ---
 Bachelor of Science in Nursing is an undergraduate programme which prepares candidates to serve humanity through Nursing. Medical aspirants often choose this program cause a great deal of job satisfaction is achieved after work.  

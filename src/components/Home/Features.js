@@ -23,7 +23,7 @@ const Features = ({featureList}) => {
                      {
                         featuresData.map((feature, index) => {
                            return <div key={feature.id} className="col-xxl-3 col-xl-3 col-lg-3 col-md-6">
-                              <div className={`features__item d-sm-flex align-items-center flex-sm-column white-bg mb-30 ${featuresData.length -1 === index ? "" : "features__border-right"}`}>
+                              <div className={`features__item d-flex align-items-center flex-column white-bg mb-30 ${featuresData.length -1 === index ? "" : "features__border-right"}`}>
                                  <div className="features__icon mb-25">
                                     <img width="100" src={feature.icon_img} alt={feature.title} />
                                  </div>

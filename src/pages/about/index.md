@@ -13,7 +13,7 @@ team_members:
   intro: Vice Chairman
   photo: "/static/img/shreyasee.jpeg"
 - name: Shubhaam Shail
-  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
+  intro: Director
   photo: "/static/img/shubhaam.jpeg"
 
 ---

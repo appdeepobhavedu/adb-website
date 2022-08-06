@@ -33,6 +33,8 @@ is_featured: false
 featuredimage: ''
 description: ''
 tags: []
+order: 7
+duration_phrase: ''
 
 ---
 A diploma in physiotherapy is a professional paramedical course which helps the candidates to learn to work and treat patients who have physical disabilities or have been injured. 

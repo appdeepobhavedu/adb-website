@@ -21,12 +21,14 @@ export const CourseTemplate = ({
   helmet,
   is_featured,
   duration,
+  duration_phrase,
   seats,
   admission_fee,
   application_and_prospectus_fee,
   per_semester_fee,
   total_fee,
   fee_notes,
+  hostel_charges,
 }) => {
   // const PostContent = contentComponent || Content;
 
@@ -236,7 +238,7 @@ export const CourseTemplate = ({
                             </svg>
                           </div>
                           <div className="course__video-info">
-                            <h5><span>Seats :</span>{seats}</h5>
+                            <h5><span>Seats:</span>{seats}</h5>
                           </div>
                         </li>
                         :
@@ -250,9 +252,10 @@ export const CourseTemplate = ({
                             <polyline className="st0" points="8,4 8,8 10.7,9.3 " />
                           </svg>
                         </div>
-                        <div className="course__video-info">
-                          <h5><span>Duration :</span>{duration}</h5>
+                        <div className="course__video-info pr-1">
+                          <h5><span>Duration:</span></h5>
                         </div>
+                        <div><span className="d-block" style={{lineHeight: "1.2"}}>{duration_phrase ? duration_phrase : duration}</span></div>
                       </li>
                       {/*<li className="d-flex align-items-center">
                         <div className="course__video-icon">
@@ -307,6 +310,12 @@ export const CourseTemplate = ({
                     <div className="course__video-price">
                       <h6>Note:</h6>
                       <p>{fee_notes}</p>
+                    </div>
+                  </div>
+                  <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
+                    <div className="course__video-price">
+                      <h6>Hostel Charges:</h6>
+                      <p>{hostel_charges}</p>
                     </div>
                   </div>
                   {/*<div className="course__payment mb-35">
@@ -380,12 +389,14 @@ const BlogPost = ({ data }) => {
         acronym={post.frontmatter.acronym}
         is_featured={post.frontmatter.is_featured}
         duration={post.frontmatter.duration}
+        duration_phrase={post.frontmatter.duration_phrase}
         seats={post.frontmatter.seats}
         admission_fee={post.frontmatter.admission_fee}
         per_semester_fee={post.frontmatter.per_semester_fee}
         application_and_prospectus_fee={post.frontmatter.application_and_prospectus_fee}
         total_fee={post.frontmatter.total_fee}
         fee_notes={post.frontmatter.fee_notes}
+        hostel_charges={post.frontmatter.hostel_charges}
 
         course_outcomes={post.frontmatter.course_outcomes}
         career_opportunities={post.frontmatter.career_opportunities}
@@ -416,12 +427,14 @@ export const pageQuery = graphql`
         tags
         is_featured
         duration
+        duration_phrase
         seats
         admission_fee
         application_and_prospectus_fee
         per_semester_fee
         total_fee
         fee_notes
+        hostel_charges
         course_outcomes
         career_opportunities
         eligibility

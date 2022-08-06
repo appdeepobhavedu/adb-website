@@ -32,6 +32,7 @@ const CourseArea = ({data}) => {
                        // console.log("course", course.node.frontmatter)
                        const { title,
                         duration,
+                        duration_phrase,
                         seats,
                         admission_fee,
                         per_semester_fee,
@@ -45,7 +46,7 @@ const CourseArea = ({data}) => {
                               <h3 className="category__title-3">{title}</h3>
                               <div className="category__list">
                                  <ul>
-                                    <li>Duration: {duration}</li>
+                                    <li>Duration: {duration_phrase ? duration_phrase : duration}</li>
                                     <li>Seats Available: {seats}</li>
                                     <li>Admission Fee: Rs {admission_fee}</li>
                                     <li>Per Semester Fee: Rs {per_semester_fee}</li>
@@ -84,7 +85,7 @@ export default function CoursePreviewRoll() {
       query={graphql`
         query CoursePreviewRollQuery {
           allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
+            sort: { order: ASC, fields: [frontmatter___order] }
             filter: { frontmatter: { templateKey: { eq: "course" } } }
           ) {
             edges {
@@ -96,6 +97,7 @@ export default function CoursePreviewRoll() {
                   is_featured
                   title
                   duration
+                  duration_phrase
                   seats
                   admission_fee
                   per_semester_fee

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 // import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-import logo from "../img/logo.jpg";
+// import logo from "../img/logo.jpg";
 
 class CourseRollTemplate extends React.Component {
   render() {
@@ -18,7 +18,7 @@ class CourseRollTemplate extends React.Component {
               {
                 courses.map((course, index) => {
                   // console.log("course", course.node.frontmatter)
-                  const {title, duration, seats, img_bg = logo} = course.node.frontmatter;
+                  const {title, acronym, duration, seats} = course.node.frontmatter;
                   const slug = course.node.fields.slug;
                   // console.log("slug", slug)
                   return <div key={index} className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
@@ -39,7 +39,7 @@ class CourseRollTemplate extends React.Component {
                         </div>*/}
                         <h3 className="course__title">
                           <Link to={slug}>
-                            {title}
+                            {title} ({acronym})
                             {/*{title.substring(0, 30)}..*/}
                           </Link>
                         </h3>
@@ -90,7 +90,7 @@ export default function CourseRoll() {
       query={graphql`
         query CourseRollQuery {
           allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
+            sort: { order: ASC, fields: [frontmatter___order] }
             filter: { frontmatter: { templateKey: { eq: "course" } } }
           ) {
             edges {
@@ -102,6 +102,7 @@ export default function CourseRoll() {
                 }
                 frontmatter {
                   title
+                  acronym
                   duration
                   seats
                   templateKey

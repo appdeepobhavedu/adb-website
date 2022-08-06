@@ -163,7 +163,7 @@ export default function CourseRoll() {
       query={graphql`
         query NavRollQuery {
           allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
+            sort: { order: ASC, fields: [frontmatter___order] }
             filter: { frontmatter: { templateKey: { eq: "course" } } }
           ) {
             edges {

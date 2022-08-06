@@ -7,8 +7,7 @@ team_heading: Meet Our Team
 team_subheading: Backed with Strong Experience
 team_members:
 - name: Shailendra Kumar
-  intro: Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec
-    massa lorem aliqua.
+  intro: Chairman
   photo: "/static/img/shailendra.jpeg"
 - name: Shreyasee Shail
   photo: "/static/img/shreyasee.jpeg"

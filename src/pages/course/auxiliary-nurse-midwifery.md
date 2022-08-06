@@ -38,7 +38,7 @@ is_featured: true
 featuredimage: "/static/img/chemex.jpeg"
 description: ''
 tags: []
-order: 1
+order: 2
 duration_phrase: ''
 
 ---

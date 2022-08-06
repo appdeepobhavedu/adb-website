@@ -318,6 +318,12 @@ export const CourseTemplate = ({
                       <p>{hostel_charges}</p>
                     </div>
                   </div>
+                  <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
+                    <div className="course__video-price">
+                      <h6>Application Form:</h6>
+                      <p>Download the application, print it, complete it, attach the required documents, have them attested, and submit a scanned copy to admissions@adbinstitute.in</p>
+                    </div>
+                  </div>
                   {/*<div className="course__payment mb-35">
                     <h3>Payment:</h3>
                     <a href="#">

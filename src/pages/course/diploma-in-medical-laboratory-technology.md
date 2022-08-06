@@ -34,6 +34,8 @@ is_featured: false
 featuredimage: ''
 description: ''
 tags: []
+order: 6
+duration_phrase: ''
 
 ---
 Diploma in Medical Laboratory Technology or DMLT is a branch of paramedical science that deals with diagnosing and treating various ailments. It is the science of analysis of human fluids like pericardial fluid, peritoneal fluid, pericardial fluid, urine, blood samples, and other specimens.

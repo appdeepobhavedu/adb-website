@@ -7,6 +7,16 @@ fields:
   label: templateKey
   default: course
   hidden: true
+- name: order
+  type: number
+  label: Order
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: text
   name: title
   label: Title
@@ -20,6 +30,11 @@ fields:
   config:
     required: false
   label: Duration
+- name: duration_phrase
+  type: text
+  config:
+    required: false
+  label: Duration Phrase
 - name: seats
   type: number
   label: Seats

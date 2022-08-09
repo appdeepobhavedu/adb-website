@@ -2,7 +2,7 @@
 templateKey: words-from-page
 path: "/words-from-chairman"
 title: Words From Chairman
-banner_image: "/static/img/about.jpg"
+banner_image: "/static/img/shailendra.jpeg"
 team_heading: ''
 team_subheading: ''
 team_members: []

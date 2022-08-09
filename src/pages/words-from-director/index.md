@@ -3,34 +3,19 @@ templateKey: about-page
 path: "/words-from-director"
 title: Words From Director
 banner_image: "/static/img/slider-1.jpg"
-team_heading: Meet Our Team
-team_subheading: Backed with Strong Experience
-team_members:
-- name: Shailendra Kumar
-  intro: Chairman
-  photo: "/static/img/shailendra.jpeg"
-- name: Shreyasee Shail
-  photo: "/static/img/shreyasee.jpeg"
-  intro: Vice Chairman
-- name: Shubhaam Shail
-  photo: "/static/img/shubhaam.jpeg"
-  intro: Director
+team_heading: ''
+team_subheading: ''
+team_members: []
 
 ---
-App Deepo Bhav Educational and Health Charitable Trust was founded in 2017 by a group of passionate changemakers. With the belief of ‘excellence, service and integrity’ App Deepo Bhav has its strong foundations rooted.
+Medical personnel have been at the forefront during the pandemic. Battling each day, working prolonged shifts and serving the nation daily with all their heart and soul. Today, we have left the pandemic behind us and have graduated to a new normal. But this has come at a heft cost to us. 
 
-Over the years, App Deepo Bhav Educational & Health Charitable Trust has evolved to be of extreme community service. The trust has been continuously working hard to provide free health care services to people in the form of organising health check-up camps and treatments. The trust works with extreme rigour and passion to help impact the lives of people every day.
+We have lost millions of lives in the pandemic. The shortage of human resources in the medical field was exposed. India is a country of over 1.3BN people and for every 1000 people, there are 1.7 paramedics for their care. This does not make our health infrastructure strong and is way below the standard in a country like India. 
 
-Apart from health care, the trust has been actively conducting various food drives and donations for the underprivileged. The academic help of the trust doesn’t end at education, the trust also sponsors stationery and study materials for underprivileged students.
+Medical emergencies do not ring a bell on the door before approaching. This pandemic has given all of us a reality check as to how the medical infrastructure in the country needs a complete revamp. 
 
-The trust consists of visionaries who want to revolutionise the health and education sectors of India. With the ongoing activities conducted by the trust in the education and health sector, the trust realised the importance of medical and paramedical colleges in Madhubani. It was the need of the hour.
+At App Deepo Bhav College, we aim to increase the paramedic/medic to patient ratio. Everything in our lives including food, clothes and shelter is secondary. Health is primary. 
 
-With this feeling App Deepo Bhav was born.
+I consider myself immensely fortunate to be associated with App Deepo Bhav College. The vision of the institute is to produce adept medical personnel that could sustain themselves and serve the nation with commitment, honesty and dedication.
 
-India has almost 14 lakh students who aspire to study medicine. To serve 14 lakh students, we have roughly 550 medical colleges, this clear gap in the sector and lack of infrastructure stops thousands of students every year from serving the country in the field of medicine.
-
-App Deepo Bhav is an institution that aims to contribute in the development of the youth by providing them with in demand skills. The skillset will enable the youth to continue serving the society for many years to come.
-
-The trust also understands that the mere establishment of a college does not contribute to the upliftment of society. Therefore, the trust will continue its drives, camps and donations to help the underprivileged. The passion, commitment and discipline within the members of the trust is what drives them to keep developing a prosperous society for a better tomorrow.
-
-App Deepo Bhav Educational and Health Charitable Trust can’t wait to see the day, every family in India has rightful access to medicine and education.
+App Deepo Bhav College warmly welcomes you and wishes each one of you all the very best in your career.

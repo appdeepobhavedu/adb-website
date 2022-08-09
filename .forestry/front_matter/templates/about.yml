@@ -31,4 +31,5 @@ pages:
 - src/pages/about/index.md
 - src/pages/words-from-chairman/index.md
 - src/pages/words-from-director/index.md
+- src/pages/words-from-principal/index.md
 - src/pages/words-from-vice-chairman/index.md

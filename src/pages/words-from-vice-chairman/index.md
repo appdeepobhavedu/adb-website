@@ -17,20 +17,24 @@ team_members:
   intro: Director
 
 ---
-App Deepo Bhav Educational and Health Charitable Trust was founded in 2017 by a group of passionate changemakers. With the belief of ‘excellence, service and integrity’ App Deepo Bhav has its strong foundations rooted.
+> “If you educate a girl, you educate a nation.”
+>
+> \- Helene D. Gayle
 
-Over the years, App Deepo Bhav Educational & Health Charitable Trust has evolved to be of extreme community service. The trust has been continuously working hard to provide free health care services to people in the form of organising health check-up camps and treatments. The trust works with extreme rigour and passion to help impact the lives of people every day.
+Patriarchy has been a devastating issue in our nation. Historically, we have seen the horrors and oppression done on women. Although we are living in 2022, the nation still needs to beat these challenges around gender inequality. 
 
-Apart from health care, the trust has been actively conducting various food drives and donations for the underprivileged. The academic help of the trust doesn’t end at education, the trust also sponsors stationery and study materials for underprivileged students.
+Women empowerment is a pressing issue of the 21st century. The literacy rate of women in India is about 70% and for males, it is about 84%. That’s a stark difference. For the progress of our nation, we need transformative education in the coming years. We as a nation can’t think of development when only one section of the society gets to choose what the other section should do. 
 
-The trust consists of visionaries who want to revolutionise the health and education sectors of India. With the ongoing activities conducted by the trust in the education and health sector, the trust realised the importance of medical and paramedical colleges in Madhubani. It was the need of the hour.
+For an egalitarian society, we need to educate everyone about the issue. Being a woman myself, I have faced this in my day to day life. Therefore I would want to change that for society. 
 
-With this feeling App Deepo Bhav was born.
+At App Deepo Bhav, we are not only mindful of the problems but also take active steps to eradicate this evil from society. 
 
-India has almost 14 lakh students who aspire to study medicine. To serve 14 lakh students, we have roughly 550 medical colleges, this clear gap in the sector and lack of infrastructure stops thousands of students every year from serving the country in the field of medicine.
+Quality education is a building block for a developed nation. Education not only empowers but also emancipates. It makes us equipped to face the challenges of daily life. 
 
-App Deepo Bhav is an institution that aims to contribute in the development of the youth by providing them with in demand skills. The skillset will enable the youth to continue serving the society for many years to come.
+Community building is another trait that comes through education. Building communities that are inclusive, accepting and supportive are all necessary for us to bridge the gender inequality gap. 
 
-The trust also understands that the mere establishment of a college does not contribute to the upliftment of society. Therefore, the trust will continue its drives, camps and donations to help the underprivileged. The passion, commitment and discipline within the members of the trust is what drives them to keep developing a prosperous society for a better tomorrow.
+We dream of a society that will be free from all communal shackles. Women will break the glass ceiling and soar in leadership positions. 
 
-App Deepo Bhav Educational and Health Charitable Trust can’t wait to see the day, every family in India has rightful access to medicine and education.
+Indian society today lacks women in leadership roles. App Deepo Bhav College believes in empowering women for the development of the entire country. 
+
+With lots of best wishes to all the students working hard with some dreams and aspirations in your eyes, we welcome you to our college for a journey of growth and development.

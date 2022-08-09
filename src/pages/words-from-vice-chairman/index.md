@@ -1,5 +1,5 @@
 ---
-templateKey: about-page
+templateKey: words-from-page
 path: "/words-from-vice-chairman"
 title: Words From Vice Chairman
 banner_image: "/static/img/slider-1.jpg"

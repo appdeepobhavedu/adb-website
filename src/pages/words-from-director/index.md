@@ -1,5 +1,5 @@
 ---
-templateKey: about-page
+templateKey: words-from-page
 path: "/words-from-director"
 title: Words From Director
 banner_image: "/static/img/slider-1.jpg"

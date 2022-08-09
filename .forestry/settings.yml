@@ -16,15 +16,12 @@ sections:
 - type: document
   path: src/pages/words-from-chairman/index.md
   label: Words From Chairman
-  match: "**/*"
 - type: document
   path: src/pages/words-from-vice-chairman/index.md
-  label: Words From Vice Chairman
-  match: "**/*"
+  label: Words From VC
 - type: document
   path: src/pages/words-from-director/index.md
   label: Words From Director
-  match: "**/*"
 - type: document
   path: src/pages/contact/index.md
   label: Contact Us

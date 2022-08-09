@@ -8,8 +8,24 @@ team_subheading: ''
 team_members: []
 
 ---
-Medical infrastructure is one of the booming problems of today. The onset of Covid-19 exposed the lack of medical infrastructure in our country. The only way to solve this problem from the grassroots is access to proper medical education. We at App Deepo Bhav are aimed to solve this massive problem. With competent personnel from the medical sector, the college is aimed to foster holistic education to its students. The college is entrusted with the responsibility of not only developing the skillset of its students but also instilling the ability to lead in their future organisations. 
+App Deepo Bhav is derived from the sentiment of Gautam Buddha. 
 
-World class education needs world class infrastructure. App Deepo Bhav College has a beautiful campus that is spread over 5 acres of land. With AC classrooms, a massive library, a lovely canteen and many more facilities, the college is well equipped to serve all the professional needs of an individual. The premise also contains a wonderful hostel facility for the visiting students. The Chairman, Vice Chairman and the Directors are dedicated to not only educating the youth but truly helping them in any way possible. Understanding the problem of travel in the area, the college also provides transportation services to the local students. 
+In Bodh Gaya, when Gautam Buddha had reached his stage of enlightenment, one of his main disciples, Anand at Sarnath after Gautam Buddha’s first speech of enlightenment to his disciples, asked him - “Till the time you were here, you paved the way for us. But after you are gone, who is going to pave the way for us?”
 
-With well qualified and experienced faculties, the college compromises nothing on quality of the education imparted. The student to teacher ratio in each class is fairly distributed, leaving enough time for each student to get their doubts clarified. The placement cell forms a critical part of each college. App Deepo Bhav has tie ups with many hospitals for practical professional experience for students. Post the completion of the course, the transition from the academic world to the professional world is seamless giving students a clear path to leave a greater impact on the society.
+In response to Anand, Gautam Buddha said “App Deepo Bhav” meaning light your own pathway. 
+
+The values embedded in Gautam Buddha’s disciples were enough for them to light their own paths. 
+
+Keeping these morals intact, we have built the App Deepo Bhav College. We want to empower our students so that they not only become self sufficient but also act as guides to make others self sufficient. 
+
+During the unprecedented times of the COVID-19 pandemic, we witnessed the collapse in global health infrastructure. At the time of the pandemic, we saw the need for a medical institution in the village of Phulparas which was frankly beyond imagination at the time. 
+
+To cater to the basic livelihood of humanity which is health and education, App Deepo Bhav wishes to stand tall in its endeavour. 
+
+App Deepo Bhav also recognises the vivid disparity between the education of a male and a female child. Our aim is to bring equity to the society. Thereby we encourage more female participation in education. 
+
+Our values stand a high ground and have laid the fundamentals of App Deepo Bhav. 
+
+I wish everyone all the very best and success in their careers. 
+
+Thank you.

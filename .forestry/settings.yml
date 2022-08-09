@@ -5,6 +5,18 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
+  path: src/pages/words-from-chairman/index.md
+  label: Words From Chairman
+  match: "**/*"
+- type: document
+  path: src/pages/words-from-director/index.md
+  label: Words From Director
+  match: "**/*"
+- type: document
+  path: src/pages/words-from-vice-chairman/index.md
+  label: Words From Vice Chairman
+  match: "**/*"
+- type: document
   path: src/pages/index.md
   label: Home
 - type: document

@@ -48,19 +48,19 @@ const Footer = class extends React.Component {
                                <div className="footer__widget-content">
                                   <ul>
                                      <li>
-                                        <Link to="/about">About us</Link>
-                                     </li>
-                                     <li>
-                                        <Link to="/about-trust">About Trust</Link>
-                                     </li>
-                                     <li>
-                                        <Link to="/contact">Contact Us</Link>
-                                     </li>
-                                     <li>
-                                        <Link to="/contact">Location</Link>
-                                     </li>
-                                     <li>
                                         <a href="/pdf/ADB-brochure-web-version.pdf" download>Download Prospectus</a>
+                                     </li>
+                                     <li>
+                                        <Link to="/words-from-chairman">Words From Chairman</Link>
+                                     </li>
+                                     <li>
+                                        <Link to="/words-from-vice-chairman">Words From Vice Chairman</Link>
+                                     </li>
+                                     <li>
+                                        <Link to="/words-from-director">Words From Director</Link>
+                                     </li>
+                                     <li>
+                                        <Link to="/words-from-principal">Message From Principal</Link>
                                      </li>
                                   </ul>
                                </div>

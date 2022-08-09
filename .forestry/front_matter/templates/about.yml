@@ -12,6 +12,7 @@ fields:
 - type: text
   name: path
   label: Path
+  hidden: true
 - type: text
   name: title
   label: Title

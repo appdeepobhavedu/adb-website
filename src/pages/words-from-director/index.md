@@ -2,7 +2,7 @@
 templateKey: words-from-page
 path: "/words-from-director"
 title: Words From Director
-banner_image: "/static/img/slider-1.jpg"
+banner_image: "/static/img/shubhaam.jpeg"
 team_heading: ''
 team_subheading: ''
 team_members: []

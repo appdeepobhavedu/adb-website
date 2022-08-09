@@ -25,7 +25,12 @@ export const AboutPageTemplate = ({ title, banner_image, content, contentCompone
           </div>
         </div>
       </div>
-      <Team team_heading={team_heading} team_subheading={team_subheading} team_members={team_members} />
+      {
+        team_members.length > 0 ?
+        <Team team_heading={team_heading} team_subheading={team_subheading} team_members={team_members} />
+        :
+        null
+      }
     </section>
   );
 };

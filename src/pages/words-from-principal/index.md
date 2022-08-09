@@ -2,7 +2,7 @@
 templateKey: words-from-page
 path: "/words-from-principal"
 title: Message From Principal
-banner_image: "/static/img/slider-1.jpg"
+banner_image: "/static/img/shubhaam.jpeg"
 team_heading: ''
 team_subheading: ''
 team_members: []

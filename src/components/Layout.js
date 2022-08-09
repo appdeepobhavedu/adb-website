@@ -47,7 +47,6 @@ const TemplateWrapper = ({ children }) => {
           property="og:image"
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
-        <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/565b500fd3f077d6194d595ef/6d4099ee74f610258298bdd7b.js");</script>
       </Helmet>
       <Navbar />
       <div>{children}</div>

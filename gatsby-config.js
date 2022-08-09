@@ -6,6 +6,12 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+     {
+      resolve : `gatsby-plugin-sumo`,
+      options : {
+        sumoSiteId : `75f9cef914acf03b2e18dd20ff7a5e4c84cea2ad7037ce254ac9b738568ce10b` //Sumo Site ID
+      }
+    },
     {
       resolve: "gatsby-plugin-sass",
       options: {

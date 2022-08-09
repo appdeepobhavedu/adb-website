@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import { getImage } from "gatsby-plugin-image";
+import { getImage, GatsbyImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 // import FullWidthImage from "../components/FullWidthImage";
@@ -20,8 +20,18 @@ export const WordsFromPageTemplate = ({ title, banner_image, content, contentCom
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
-            <img alt={title} />
+          <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 pt-10">
+            <GatsbyImage
+              image={bannerImage}
+              objectFit={"cover"}
+              objectPosition="top left"
+              style={{
+                gridArea: "1/1",
+                height: 360,
+              }}
+              alt={title}
+              formats={["auto", "webp", "avif"]}
+            />
           </div>
           <div className="col-xxl-8 col-xl-8 col-lg-8 col-md-6">
             <div className="container">

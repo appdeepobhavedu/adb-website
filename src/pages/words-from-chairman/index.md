@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: "/words-from-chairman"
-title: About College
+title: Words From Chairman
 banner_image: "/static/img/about.jpg"
 team_heading: Meet Our Team
 team_subheading: Backed with Strong Experience

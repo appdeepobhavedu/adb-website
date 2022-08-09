@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: "/words-from-director"
-title: About The Trust
+title: Words From Director
 banner_image: "/static/img/slider-1.jpg"
 team_heading: Meet Our Team
 team_subheading: Backed with Strong Experience

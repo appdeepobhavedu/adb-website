@@ -2,7 +2,7 @@
 templateKey: words-from-page
 path: "/words-from-vice-chairman"
 title: Words From Vice Chairman
-banner_image: "/static/img/slider-1.jpg"
+banner_image: "/static/img/shreyasee.jpeg"
 team_heading: ''
 team_subheading: ''
 team_members: []

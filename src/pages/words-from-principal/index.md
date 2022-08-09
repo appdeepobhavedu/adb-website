@@ -8,14 +8,20 @@ team_subheading: ''
 team_members: []
 
 ---
-Medical personnel have been at the forefront during the pandemic. Battling each day, working prolonged shifts and serving the nation daily with all their heart and soul. Today, we have left the pandemic behind us and have graduated to a new normal. But this has come at a heft cost to us. 
+> "Education is the most powerful weapon you can use to change the world" - Nelson Mandela 
 
-We have lost millions of lives in the pandemic. The shortage of human resources in the medical field was exposed. India is a country of over 1.3BN people and for every 1000 people, there are 1.7 paramedics for their care. This does not make our health infrastructure strong and is way below the standard in a country like India. 
+In the current context of rapid changes that are taking place in our country, all activities directed towards economic advancements are required to be addressed with utmost priority. In this effort, it is also imperative to prepare social engineers, who could contribute to and manage the needs of the society with equanimity of mind and an attitude of selfless social service. 
 
-Medical emergencies do not ring a bell on the door before approaching. This pandemic has given all of us a reality check as to how the medical infrastructure in the country needs a complete revamp. 
+App Deepo Bhav College facilities possess abundant experience in the field of education and social service has always been focusing their efforts on this very important activity of nation building.
 
-At App Deepo Bhav College, we aim to increase the paramedic/medic to patient ratio. Everything in our lives including food, clothes and shelter is secondary. Health is primary. 
+We, at App Deepo Bhav, ensure high quality education which motivates and empowers our students to be lifelong learners and productive members of the society. At App Deepo Bhav, education is not just the amount of information that is put into a child’s brain. Our education system is the one that caters for the individual needs of our students. 
 
-I consider myself immensely fortunate to be associated with App Deepo Bhav College. The vision of the institute is to produce adept medical personnel that could sustain themselves and serve the nation with commitment, honesty and dedication.
+With an excellent infrastructure with a supportive and involved parent community who is extremely dedicated, alongside a highly skilful members of the faculty we are hopeful to create a great learning experience for students.
 
-App Deepo Bhav College warmly welcomes you and wishes each one of you all the very best in your career.
+We are very sure that with the help of all the stakeholders and with their continuous support, we will be able to take our school to the next highest level of excellence. At our end, we shall continue working with you for the best interests of our beloved students and our community at large.
+
+My commitment to our community is to lead the school with enthusiasm and passion to enable us to reach our goals. Let us work together to make App Deepo College as one of the best, in the nation.  
+
+We look forward to welcoming you to be part of our vibrant learning community.
+
+Thank you

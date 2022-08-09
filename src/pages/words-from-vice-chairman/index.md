@@ -3,18 +3,9 @@ templateKey: about-page
 path: "/words-from-vice-chairman"
 title: Words From Vice Chairman
 banner_image: "/static/img/slider-1.jpg"
-team_heading: Meet Our Team
-team_subheading: Backed with Strong Experience
-team_members:
-- name: Shailendra Kumar
-  intro: Chairman
-  photo: "/static/img/shailendra.jpeg"
-- name: Shreyasee Shail
-  photo: "/static/img/shreyasee.jpeg"
-  intro: Vice Chairman
-- name: Shubhaam Shail
-  photo: "/static/img/shubhaam.jpeg"
-  intro: Director
+team_heading: ''
+team_subheading: ''
+team_members: []
 
 ---
 > “If you educate a girl, you educate a nation.”

@@ -14,6 +14,15 @@ sections:
   path: src/pages/about-trust/index.md
   label: About Trust
 - type: document
+  path: src/pages/words-from-chairman/index.md
+  label: Words From Chairman
+- type: document
+  path: src/pages/words-from-vice-chairman/index.md
+  label: Words From VC
+- type: document
+  path: src/pages/words-from-director/index.md
+  label: Words From Director
+- type: document
   path: src/pages/contact/index.md
   label: Contact Us
 - type: directory

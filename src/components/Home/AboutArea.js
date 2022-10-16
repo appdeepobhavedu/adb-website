@@ -16,14 +16,14 @@ const AboutArea = ({ about_pt = '', about_college }) => {
                      <div className="about__thumb-wrapper d-sm-flex mr-20 p-relative">
                         <div className="about__thumb-left mr-10">
                            <div className="about__thumb-1 mb-10">
-                              <img src={img1} alt="" />
+                              <img src={img3} alt="" />
                            </div>
                            <div className="about__thumb-1 mb-10 text-end">
-                              <img src={img3} alt="" />
+                              <img src={img2} alt="" />
                            </div>
                         </div>
                         <div className="about__thumb-2 mb-10">
-                           <img src={img2} alt="" />
+                           <img src={img1} alt="" />
                         </div>
                      </div>
                   </div>

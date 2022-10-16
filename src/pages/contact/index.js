@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 import ContactArea from "./ContactArea";
 import ContactInfoArea from "../../components/ContactInfoArea";
 
-import bannerImage from "../../../static/img/slider-1.jpg";
+import bannerImage from "../../../static/img/contact.jpg";
 
 function encode(data) {
   return Object.keys(data)
@@ -40,7 +40,7 @@ export default class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <img src={bannerImage} title={"Contact Us"} alt={"Contact Us"} height="400" width="100%" />
+        <img src={bannerImage} title={"Contact Us"} alt={"Contact Us"} height="400" width="100%" style={{objectFit: "cover"}} />
         <section className="section">
           <div className="container">
             <div className="content">

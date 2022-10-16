@@ -2,7 +2,7 @@
 templateKey: about-page
 path: "/about-trust"
 title: About The Trust
-banner_image: "/static/img/slider-1.jpg"
+banner_image: "/static/img/about.jpg"
 team_heading: Meet Our Team
 team_subheading: Backed with Strong Experience
 team_members:

@@ -52,6 +52,7 @@ duration_phrase: ''
 _template: course
 ---
 
+
 With the importance of cultivating young leaders for the future, this course lays the foundation for that. The rising potential of Hospital Management has shifted students' interest in healthcare management. 
 
 In this course, the students are prepared for leadership and managerial roles in the health sector. The candidates of this course are exposed to the planning and operation of hospitals, public healthcare systems, private healthcare, etc. 

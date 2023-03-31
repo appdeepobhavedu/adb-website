@@ -58,6 +58,7 @@ duration_phrase: 3 Years + 6 Months Internship
 _template: course
 ---
 
+
 General Nursing Midwifery or GNM is best suited for students aspiring to pursue their careers in clinical nursing. Students of this diploma are trained for various situations like emergency response, clinical treatment and patient’s care. 
 
 The programme teaches its students how to care for sick and injured patients and how to help them to recover completely. 

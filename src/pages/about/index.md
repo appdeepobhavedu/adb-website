@@ -1,22 +1,23 @@
 ---
 templateKey: about-page
-path: "/about"
+path: /about
 title: About College
-banner_image: "/static/img/about.jpg"
+banner_image: /static/img/about.jpg
 team_heading: Meet Our Team
 team_subheading: Backed with Strong Experience
 team_members:
-- name: Shailendra Kumar
-  photo: "/static/img/shailendra.jpeg"
-  intro: Chairman
-- name: Shreyasee Shail
-  intro: Vice Chairman
-  photo: "/static/img/shreyasee.jpeg"
-- name: Shubhaam Shail
-  intro: Director
-  photo: "/static/img/shubhaam.jpeg"
-
+  - name: Shailendra Kumar
+    photo: /static/img/shailendra.jpeg
+    intro: Chairman
+  - name: Shreyasee Shail
+    intro: Vice Chairman
+    photo: /static/img/shreyasee.jpeg
+  - name: Shubhaam Shail
+    intro: Director
+    photo: /static/img/shubhaam.jpeg
+_template: about
 ---
+
 Medical infrastructure is one of the booming problems of today. The onset of Covid-19 exposed the lack of medical infrastructure in our country. The only way to solve this problem from the grassroots is access to proper medical education. We at App Deepo Bhav are aimed to solve this massive problem. With competent personnel from the medical sector, the college is aimed to foster holistic education to its students. The college is entrusted with the responsibility of not only developing the skillset of its students but also instilling the ability to lead in their future organisations. 
 
 World class education needs world class infrastructure. App Deepo Bhav College has a beautiful campus that is spread over 5 acres of land. With AC classrooms, a massive library, a lovely canteen and many more facilities, the college is well equipped to serve all the professional needs of an individual. The premise also contains a wonderful hostel facility for the visiting students. The Chairman, Vice Chairman and the Directors are dedicated to not only educating the youth but truly helping them in any way possible. Understanding the problem of travel in the area, the college also provides transportation services to the local students. 

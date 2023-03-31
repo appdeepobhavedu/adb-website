@@ -1,13 +1,14 @@
 ---
 templateKey: words-from-page
-path: "/words-from-principal"
+path: /words-from-principal
 title: Message From Principal
-banner_image: "/static/img/shubhaam.jpeg"
+banner_image: /static/img/shubhaam.jpeg
 team_heading: ''
 team_subheading: ''
 team_members: []
-
+_template: about
 ---
+
 > _"Education is the most powerful weapon you can use to change the world" - Nelson Mandela_
 
 In the current context of rapid changes that are taking place in our country, all activities directed towards economic advancements are required to be addressed with utmost priority. In this effort, it is also imperative to prepare social engineers, who could contribute to and manage the needs of the society with equanimity of mind and an attitude of selfless social service.

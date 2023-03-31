@@ -1,13 +1,14 @@
 ---
 templateKey: words-from-page
-path: "/words-from-vice-chairman"
+path: /words-from-vice-chairman
 title: Words From Vice Chairman
-banner_image: "/static/img/shreyasee.jpeg"
+banner_image: /static/img/shreyasee.jpeg
 team_heading: ''
 team_subheading: ''
 team_members: []
-
+_template: about
 ---
+
 > _“If you educate a girl, you educate a nation.” - Helene D. Gayle_
 
 Patriarchy has been a devastating issue in our nation. Historically, we have seen the horrors and oppression done on women. Although we are living in 2022, the nation still needs to beat these challenges around gender inequality. Women empowerment is a pressing issue of the 21st century. The literacy rate of women in India is about 70% and for males, it is about 84%. That’s a stark difference. For the progress of our nation, we need transformative education in the coming years. We as a nation can’t think of development when only one section of the society gets to choose what the other section should do.

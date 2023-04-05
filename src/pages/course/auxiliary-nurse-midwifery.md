@@ -54,6 +54,7 @@ _template: course
 ---
 
 
+
 Auxiliary Nurse Midwifery was created in India in 1966 by the Mukherjee Committee to spread the concept of health care in rural areas. During the 1950s and 1960s, ANM training was primarily focused on midwifery and maternal and child care. The bigger components of the ANM were later evaluated based on the recommendation.
 
 Today however the course has evolved and is offered as a diploma course which makes the students capable and eligible to provide medical assistance to any senior professional. The course provides knowledge about setting up operation theatre, taking care of various equipment, learning about medical supplies, maintaining records, and also administering timely medication to patients.

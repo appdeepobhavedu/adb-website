@@ -1,3 +1,4 @@
+const express = require('express');
 module.exports = {
   siteMetadata: {
     title: "Gatsby + Netlify CMS Starter",
@@ -88,4 +89,7 @@ module.exports = {
     }, // must be after other CSS plugins
     // "gatsby-plugin-netlify", // make sure to keep it last in the array
   ],
+  developMiddleware: (app) => {
+    app.use("/admin", express.static("public/admin"));
+  },
 };

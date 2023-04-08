@@ -1,11 +1,4 @@
 import { defineConfig } from "tinacms";
-import { aboutFields } from "./templates";
-import { blog_postFields } from "./templates";
-import { contact_usFields } from "./templates";
-import { courseFields } from "./templates";
-import { featuresFields } from "./templates";
-import { homeFields } from "./templates";
-import { team_sectionFields } from "./templates";
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
@@ -28,10 +21,10 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        format: "md",
         label: "Home",
         name: "home",
         path: "src/pages",
+        format: "md",
         ui: {
           allowedActions: {
             create: false,
@@ -82,7 +75,6 @@ export default defineConfig({
               component: "textarea",
             },
           },
-          ...featuresFields(),
           {
             type: "object",
             name: "about_college",
@@ -141,10 +133,10 @@ export default defineConfig({
         ],
       },
       {
-        format: "md",
         label: "About college",
         name: "about_college",
         path: "src/pages/about",
+        format: "md",
         ui: {
           allowedActions: {
             create: false,
@@ -183,14 +175,13 @@ export default defineConfig({
             name: "banner_image",
             label: "Banner Image",
           },
-          ...team_sectionFields(),
         ],
       },
       {
-        format: "md",
         label: "About Trust",
         name: "about_trust",
         path: "src/pages/about-trust",
+        format: "md",
         ui: {
           allowedActions: {
             create: false,
@@ -229,14 +220,13 @@ export default defineConfig({
             name: "banner_image",
             label: "Banner Image",
           },
-          ...team_sectionFields(),
         ],
       },
       {
-        format: "md",
         label: "Words From Chairman",
         name: "words_from_chairman",
         path: "src/pages/words-from-chairman",
+        format: "md",
         ui: {
           allowedActions: {
             create: false,
@@ -275,14 +265,13 @@ export default defineConfig({
             name: "banner_image",
             label: "Banner Image",
           },
-          ...team_sectionFields(),
         ],
       },
       {
-        format: "md",
         label: "Words From VC",
         name: "words_from_vc",
         path: "src/pages/words-from-vice-chairman",
+        format: "md",
         ui: {
           allowedActions: {
             create: false,
@@ -321,14 +310,13 @@ export default defineConfig({
             name: "banner_image",
             label: "Banner Image",
           },
-          ...team_sectionFields(),
         ],
       },
       {
-        format: "md",
         label: "Words From Director",
         name: "words_from_director",
         path: "src/pages/words-from-director",
+        format: "md",
         ui: {
           allowedActions: {
             create: false,
@@ -367,14 +355,13 @@ export default defineConfig({
             name: "banner_image",
             label: "Banner Image",
           },
-          ...team_sectionFields(),
         ],
       },
       {
-        format: "md",
         label: "Message From Principal",
         name: "message_from_principal",
         path: "src/pages/words-from-principal",
+        format: "md",
         ui: {
           allowedActions: {
             create: false,
@@ -413,14 +400,13 @@ export default defineConfig({
             name: "banner_image",
             label: "Banner Image",
           },
-          ...team_sectionFields(),
         ],
       },
       {
-        format: "md",
         label: "Contact Us",
         name: "contact_us",
         path: "src/pages/contact",
+        format: "md",
         ui: {
           allowedActions: {
             create: false,
@@ -441,7 +427,6 @@ export default defineConfig({
         ],
       },
       {
-        format: "md",
         label: "Blog Posts",
         name: "blog_posts",
         path: "src/pages/blog",
@@ -457,11 +442,48 @@ export default defineConfig({
             description: "This is the markdown body",
             isBody: true,
           },
-          ...blog_postFields(),
+          {
+            type: "string",
+            name: "templateKey",
+            label: "templateKey",
+          },
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+          {
+            type: "boolean",
+            name: "featuredpost",
+            label: "Is Featured Post",
+          },
+          {
+            type: "image",
+            name: "featuredimage",
+            label: "Featured Image",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "string",
+            name: "tags",
+            label: "Tags",
+            list: true,
+          },
         ],
       },
       {
-        format: "md",
         label: "Courses",
         name: "courses",
         path: "src/pages/course",
@@ -477,14 +499,129 @@ export default defineConfig({
             description: "This is the markdown body",
             isBody: true,
           },
-          ...courseFields(),
+          {
+            type: "string",
+            name: "templateKey",
+            label: "templateKey",
+          },
+          {
+            type: "number",
+            name: "order",
+            label: "Sequence Order",
+          },
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "acronym",
+            label: "Acronym",
+          },
+          {
+            type: "string",
+            name: "duration",
+            label: "Duration",
+          },
+          {
+            type: "string",
+            name: "duration_phrase",
+            label: "Duration Phrase",
+          },
+          {
+            type: "number",
+            name: "seats",
+            label: "Seats",
+          },
+          {
+            type: "string",
+            name: "eligibility",
+            label: "Eligibility",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "string",
+            name: "application_and_prospectus_fee",
+            label: "Application & Prospectus Fee",
+          },
+          {
+            type: "string",
+            name: "admission_fee",
+            label: "Admission Fee",
+          },
+          {
+            type: "string",
+            name: "per_semester_fee",
+            label: "Per Semester Fee",
+          },
+          {
+            type: "string",
+            name: "total_fee",
+            label: "Total fee",
+          },
+          {
+            type: "string",
+            name: "fee_notes",
+            label: "Fee Notes",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "string",
+            name: "hostel_charges",
+            label: "Hostel Charges",
+          },
+          {
+            type: "string",
+            name: "course_outcomes",
+            label: "Course Outcomes",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "string",
+            name: "career_opportunities",
+            label: "Career Opportunities",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "boolean",
+            name: "is_featured",
+            label: "Is Featured",
+          },
+          {
+            type: "image",
+            name: "featuredimage",
+            label: "featuredimage",
+          },
+          {
+            type: "string",
+            name: "description",
+            label: "Description",
+            ui: {
+              component: "textarea",
+            },
+          },
+          {
+            type: "string",
+            name: "tags",
+            label: "Tags",
+            list: true,
+          },
         ],
       },
       {
-        format: "md",
         label: "Products",
         name: "products",
         path: "src/pages/products",
+        format: "md",
         ui: {
           allowedActions: {
             create: false,

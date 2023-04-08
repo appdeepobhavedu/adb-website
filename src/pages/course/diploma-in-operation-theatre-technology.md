@@ -50,7 +50,6 @@ _template: course
 ---
 
 
-
 A diploma in operation theatre technology is a popular paramedical study. This makes the aspirants capable of working in operation theatre by equipping them with knowledge of preparation of operation theatre, sterilization, equipment maintenance and assisting the nurses and surgeons. 
 
 OT Technicians are hired to assist and help the Doctors and Surgeons during surgeries and emergency procedures. The success of the procedures and the safety of patients depend largely on the reliability of the OT technician.

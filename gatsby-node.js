@@ -1,7 +1,12 @@
 const _ = require('lodash')
 const path = require('path')
+const express = require("express");
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+
+exports.onCreateDevServer = ({ app }) => {
+  app.use("/admin", express.static("public/admin"));
+};
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions

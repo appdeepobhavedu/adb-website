@@ -288,7 +288,7 @@ export const CourseTemplate = ({
                       <h6>Application & Prospectus Fee</h6>
                     </div>
                   </div>
-                  <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
+                  {/*<div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
                     <div className="course__video-price">
                       <h4>Rs. {admission_fee}</h4>
                       <h6>Admission Fee</h6>
@@ -305,19 +305,19 @@ export const CourseTemplate = ({
                       <h5>Rs. {total_fee}</h5>
                       <h6>Total Fee</h6>
                     </div>
-                  </div>
+                  </div>*/}
                   <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
                     <div className="course__video-price">
                       <h6>Note:</h6>
-                      <p>{fee_notes}</p>
+                      <p><b>{fee_notes}</b></p>
                     </div>
                   </div>
-                  <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
+                  {/*<div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
                     <div className="course__video-price">
                       <h6>Hostel Charges:</h6>
                       <p>{hostel_charges}</p>
                     </div>
-                  </div>
+                  </div>*/}
                   <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
                     <div className="course__video-price">
                       <h6>Application Form:</h6>

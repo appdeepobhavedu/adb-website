@@ -139,7 +139,7 @@ export default class Index extends React.Component {
 													</div>
 													<div className="contact__info-text">
 														<h4>App Deep Bhav College</h4>
-														<p><a target="_blank" rel="noreferrer" href="https://goo.gl/maps/S9HvZxTxND4M96z38">
+														<p><a target="_blank" rel="noreferrer" href="https://goo.gl/maps/Xd6RqgJPsZxb7p1G7">
 															Brahampura, Belha, Phulparas, Madhubani(847402), Bihar, India
 														</a></p>
 
@@ -168,8 +168,8 @@ export default class Index extends React.Component {
 														</svg>
 													</div>
 													<div className="contact__info-text">
-														<h4>Phone</h4>
-														<p><a href="tel:+91-9065380406">+91-9065380406</a></p>
+														<h4>Phone and WhatsApp</h4>
+														<p><a href="tel:+91-8757594959">+91-8757594959</a></p>
 														<p><a href="tel:+91-8434393919">+91-8434393919</a></p>
 													</div>
 												</div>

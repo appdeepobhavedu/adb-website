@@ -56,9 +56,10 @@ class CourseRollTemplate extends React.Component {
                           </div>
                           {
                             seats?
-                            <div className="course__tutor">
+                            null
+                            /*<div className="course__tutor">
                                 Seats: {seats}
-                            </div>
+                            </div>*/
                             : null
                           }
                         </div>

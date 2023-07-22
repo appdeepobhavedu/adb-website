@@ -33,9 +33,9 @@ const Footer = class extends React.Component {
                                         <h4>Follow Us</h4>
 
                                         <ul>
-                                           <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"> </i></a></li>
-                                           <li><a href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"> </i></a></li>
-                                           <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin-in"> </i></a></li>
+                                           <li><a href="https://www.facebook.com/adbncggh" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook-f"> </i></a></li>
+                                           {/*<li><a href="https://twitter.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-twitter"> </i></a></li>*/}
+                                           {/*<li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin-in"> </i></a></li>*/}
                                         </ul>
                                      </div>
                                   </div>

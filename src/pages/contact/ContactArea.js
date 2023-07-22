@@ -178,8 +178,8 @@ export default class Index extends React.Component {
 										<div className="contact__social pl-30">
 											<h4>Follow Us</h4>
 											<ul>
-												<li><a href="facebook.com" className="fb" ><i className="fa-brands fa-facebook-f"> </i></a></li>
-												<li><a href="twitter.com" className="tw" ><i className="fa-brands fa-twitter"> </i></a></li>
+												<li><a href="https://www.facebook.com/adbncggh" className="fb" ><i className="fa-brands fa-facebook-f"> </i></a></li>
+												{/*<li><a href="twitter.com" className="tw" ><i className="fa-brands fa-twitter"> </i></a></li>*/}
 											</ul>
 										</div>
 									</div>

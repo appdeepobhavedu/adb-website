@@ -19,7 +19,7 @@ const DetailsTabItems = ({
                   <button  onClick={() => setTab(1)} className={`nav-link ${tab === 1 ? "active" : ""}`} id="curriculum-tab" data-bs-toggle="tab" data-bs-target="#curriculum" type="button" role="tab" aria-controls="curriculum" aria-selected="false"><i className="fa-regular fa-book-blank"></i> <span>Eligibility Criteria</span> </button>
                </li>
                <li className="nav-item" role="presentation">
-                  <button  onClick={() => setTab(2)} className={`nav-link ${tab === 2 ? "active" : ""}`} id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false"> <i className="fa-regular fa-star"></i> <span>Course Outcomes</span> </button>
+                  <button  onClick={() => setTab(2)} className={`nav-link ${tab === 2 ? "active" : ""}`} id="review-tab" data-bs-toggle="tab" data-bs-target="#review" type="button" role="tab" aria-controls="review" aria-selected="false"> <i className="fa-regular fa-star"></i> <span>Required Documents</span> </button>
                </li>
                <li className="nav-item" role="presentation">
                   <button  onClick={() => setTab(3)} className={`nav-link ${tab === 3 ? "active" : ""}`} id="member-tab" data-bs-toggle="tab" data-bs-target="#member" type="button" role="tab" aria-controls="member" aria-selected="false"> <i className="fal fa-user"></i> <span>Career Opportunities</span> </button>
@@ -44,7 +44,7 @@ const DetailsTabItems = ({
                </div>
                <div className={`tab-pane fade ${tab === 2 ? "show active" : ""}`} id="review" role="tabpanel" aria-labelledby="review-tab">
                   <div className="p-20">
-                     <h3>Course Outcomes</h3>
+                     <h3>Required Documents</h3>
                      <HTMLContent content={course_outcomes} />
                   </div>
                </div>

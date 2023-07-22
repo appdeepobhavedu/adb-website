@@ -16,17 +16,7 @@ eligibility: "<p>The students are required to fulfil the following criteria for 
 admission_fee: '39,000'
 per_semester_fee: '50,000'
 total_fee: '2,40,000'
-course_outcomes: "<p>After the completion of this course the students can expect the
-  following:</p><ul><li><p>Demonstrate ability to prepare and maintain Operation Theater.</p></li><li><p>Demonstrate
-  ability to maintain equipment support in an acute care environment.</p></li><li><p>Identify
-  and move to maintain a sterile field.</p></li><li><p>Follow infection control policies
-  and procedures.</p></li><li><p>Manage and maintain theatre equipment.</p></li><li><p>Demonstrate
-  ability to prepare the patient for operative procedures.</p></li><li><p>Provide
-  intra-operative equipment and technical support.</p></li><li><p>Demonstrate skills
-  and knowledge to assist anaesthetist in handling emergencies outside of OT Room.</p></li><li><p>Manage
-  hazardous waste and follow biomedical waste disposal protocols.</p></li><li><p>Ensure
-  availability of medical and diagnostic supplies.</p></li><li><p>Monitor and assure
-  quality.</p></li></ul>"
+course_outcomes: "<p>NA</p>"
 career_opportunities: "<p><strong>Career Opportunities</strong></p><p>A few job positions
   that the students can consider after the completion of the course are</p><ul><li><p>Lab
   Technician</p></li><li><p>Operation Theatre Technician</p></li><li><p>Operation

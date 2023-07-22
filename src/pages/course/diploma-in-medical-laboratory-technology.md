@@ -17,15 +17,7 @@ eligibility: "<p>The students are required to fulfil the following criteria for 
 admission_fee: '49,000'
 per_semester_fee: '42,500'
 total_fee: '2,20,000'
-course_outcomes: "<p>After the completion of this course the students can expect the
-  following:</p><ul><li><p>Undergo training in all fields of laboratory medicine (Biochemistry,
-  Microbiology, Pathology and Blood bank departments respectively)</p></li><li><p>Collect
-  and prepare the sample</p></li><li><p>Handle fully automated analysers</p></li><li><p>Understand
-  and perform special stains and smears</p></li><li><p>Understand and perform basic
-  cytology and haematology procedures</p></li><li><p>Perform grossing, cutting &amp;
-  staining procedures in histopathology</p></li><li><p>Counsel and screen the Donors
-  and prepare the blood components</p></li><li><p>Perform Quality control procedures</p></li><li><p>Effectively
-  use HIS/LIS</p></li><li><p>Maintain log books and registers</p></li></ul>"
+course_outcomes: "<p>NA</p>"
 career_opportunities: "<p>A few job positions that the students can consider after
   the completion of the course are</p><ul><li><p>Diagnostic Lab Manager</p></li><li><p>Medical
   and Clinical Laboratory Technicians</p></li><li><p>Optical Laboratory Technician</p></li><li><p>Lab

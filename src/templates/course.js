@@ -229,7 +229,8 @@ export const CourseTemplate = ({
                     <ul>
                       {
                         seats?
-                        <li className="d-flex align-items-center">
+                        null
+                        /*<li className="d-flex align-items-center">
                           <div className="course__video-icon">
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
                               x="0px" y="0px" viewBox="0 0 24 24" style={{ enableBackground: "new 0 0 16 16" }} xmlSpace="preserve">
@@ -240,7 +241,7 @@ export const CourseTemplate = ({
                           <div className="course__video-info">
                             <h5><span>Seats:</span>{seats}</h5>
                           </div>
-                        </li>
+                        </li>*/
                         :
                         null
                       }
@@ -310,6 +311,20 @@ export const CourseTemplate = ({
                     <div className="course__video-price">
                       <h6>Note:</h6>
                       <p><b>{fee_notes}</b></p>
+                    </div>
+                  </div>
+                  <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
+                    <div className="course__video-price">
+                      <h6>Amenities:</h6>
+                      <ul>
+                        <li>* One bed per student with necessities like Almira, Table, Ro water, 24-hour Electricity, Study table, etc.</li>
+                        <li>* Hostel warden to maintain discipline.</li>
+                        <li>* 24hr security guards.</li>
+                        <li>* CCTV cameras all around campus.</li>
+                        <li>* Meals - Breakfast, Lunch, Dinner with a 7-day changing menu.</li>
+                        <li>* Transportation faculties.</li>
+                        <li>* First Aid and Medical facilities.</li>
+                      </ul>
                     </div>
                   </div>
                   {/*<div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">

@@ -24,21 +24,7 @@ fee_notes: We also help with loans up to Rs 4,00,000 with the Student Credit Car
   (DRCC) Scheme for students of Bihar domicile.
 hostel_charges: Rs 10,000 per quarter inclusive of meals, lodging and evening tuition
   (Doubt Solving Sessions)
-course_outcomes: "<p>After the completion of this course the students can expect the
-  following:</p><ul><li><p>Demonstrate competency in the skills and techniques of
-  nursing based on concepts and principles</p></li><li><p>Assess the health status,
-  identify and prioritize the nursing needs, plan, implement and evaluate the care
-  of the patients in the hospital and community</p></li><li><p>Assume leadership roles
-  as first level managers in nursing services and nursing education</p></li><li><p>Recognize
-  the need for continued learning for personal and professional enhancement</p></li><li><p>Update
-  oneself with the latest technology, trends and issues in health care</p></li><li><p>Conduct
-  need based research studies in the hospital or the community and utilize the research
-  findings to improve the quality of nursing care</p></li><li><p>Practice within the
-  framework of the code of ethics and professional conduct and ensure acceptable standards
-  of practice</p></li><li><p>Collaborate with the other members of the health care
-  team in reaching realistic health goals</p></li><li><p>Communicate effectively with
-  the members of the health care team and develop good interpersonal skills for team
-  work</p></li></ul>"
+course_outcomes: "<ul><li><p>Class 10 & Class 12 Marksheet,</p></li><li><p>Class 10 & Class 12 Passing Certificate,</p></li><li><p>Transfer Certificate,</p></li><li><p>Caste Certificate (if applicable),</p></li><li><p>Medical Certificate (if applicable),</p></li><li><p>Migration Certificate (if applicable),</p></li><li><p>Valid Photo Identity Proof (Aadhar/ Voter ID/ Passport),</p></li><li><p>8 recent Passport Size Photographs,</p></li><li><p>NEET Admit Card (if applicable),</p></li><li><p>NEET Marksheet/ any equivalent exam,</p></li><li><p>Active Mobile No. and Email Address</p></li></ul>"
 career_opportunities: "<p>A few job positions that the students can consider after
   the completion of the course are</p><ul><li><p>Chief Nursing Officer</p></li><li><p>Nursing
   Officer</p></li><li><p>Rehabilitation Specialist</p></li><li><p>Critical Care Nurse</p></li><li><p>Paramedic

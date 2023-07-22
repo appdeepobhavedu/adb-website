@@ -170,7 +170,7 @@ export default class Index extends React.Component {
 													<div className="contact__info-text">
 														<h4>Phone and WhatsApp</h4>
 														<p><a href="tel:+91-8757594959">+91-8757594959</a></p>
-														<p><a href="tel:+91-8434393919">+91-8434393919</a></p>
+														{/*<p><a href="tel:+91-8434393919">+91-8434393919</a></p>*/}
 													</div>
 												</div>
 											</li>

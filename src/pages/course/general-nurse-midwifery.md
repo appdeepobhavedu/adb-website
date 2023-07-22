@@ -18,19 +18,7 @@ eligibility: "<p>The students are required to fulfil the following criteria for 
 admission_fee: '58,800'
 per_semester_fee: '81,700'
 total_fee: "550000"
-course_outcomes: "<p>After the completion of this course the students can expect the
-  following:</p><ul><li><p>Demonstrate competency in providing health care to individuals
-  sick or well using the nursing processes.</p></li><li><p>Provide effective nursing
-  care for maintaining quality care.</p></li><li><p>Promote self care in people under
-  their care.</p></li><li><p>Apply problem solving techniques in nursing practice.</p></li><li><p>Demonstrate
-  interest in activities of a professional organisation.</p></li><li><p>Demonstrate
-  basic skills in teaching patients and giving nursing care to them.</p></li><li><p>Demonstrate
-  basic skills in administration and leadership while working with other members of
-  the health team and community.</p></li><li><p>Assist in research activities.</p></li><li><p>Provide
-  the best possible care and be able to work independently with little supervision.</p></li><li><p>Participate
-  in all the national health and family welfare programs.</p></li><li><p>Manage the
-  health care unit including equipment and supplies.</p></li><li><p>Maintain the records
-  in order to provide quality basis people friendly services.</p></li></ul>"
+course_outcomes: "<ul><li><p>Class 10 & Class 12 Marksheet,</p></li><li><p>Class 10 & Class 12 Passing Certificate,</p></li><li><p>Transfer Certificate,</p></li><li><p>Caste Certificate (if applicable),</p></li><li><p>Medical Certificate (if applicable),</p></li><li><p>Migration Certificate (if applicable),</p></li><li><p>Valid Photo Identity Proof(Aadhar/ Voter ID/ Passport),</p></li><li><p>8 recent Passport Size Photographs,</p></li><li><p>Active Mobile No. and Email Address</p></li></ul>"
 career_opportunities: "<p>A few job positions that the students can consider after
   the completion of the course are</p><ul><li><p>Health Care Nurse</p></li><li><p>Clinical
   Nurse Specialist</p></li><li><p>Certified Nursing Assistant</p></li><li><p>Legal

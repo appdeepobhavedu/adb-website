@@ -15,18 +15,7 @@ eligibility: "<p>The students are required to fulfil the following criteria for 
 admission_fee: '58,000'
 per_semester_fee: '43,500'
 total_fee: '3,20,000'
-course_outcomes: "<p>After the completion of this course the students can expect the
-  following:</p><ul><li><p>Demonstrate adequate knowledge and mastery of techniques
-  relevant to hospital management and/or demonstrate a clear understanding of concepts,
-  information and techniques at the forefront of the hospital management discipline</p></li><li><p>Develop
-  awareness of the responsibilities of senior hospital management, including understanding
-  the role and functions of hospitals and their healthcare context and prepare to
-  handle the management and development issues faced by a hospital manager, including
-  structure and organization; planning and managing resources, and reviewing and evaluating
-  services.</p></li><li><p>Recognize how operational problems and situations are handled
-  in practice by undertaking and reporting at a hospital attachment</p></li><li><p>Formulate
-  ideas and develop and participate in the implementation of plans</p></li><li><p>Take
-  a proactive and self-reflective role in working and developing a professional relationship</p></li></ul>"
+course_outcomes: "<p>NA</p>"
 career_opportunities: "<p>A few job positions that the students can consider after
   the completion of the course are:</p><ul><li><p>Hospital Administrator</p></li><li><p>Floor
   Manager - Hospital</p></li><li><p>Center Manager</p></li><li><p>Teacher or Instructor

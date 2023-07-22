@@ -17,15 +17,7 @@ eligibility: "<p>The students are required to fulfil the following criteria for 
 admission_fee: '19,000'
 per_semester_fee: '25,000'
 total_fee: '1,20,000'
-course_outcomes: "<p>After the completion of this course the students can expect the
-  following:</p><ul><li><p>Comprehend the normal disposition, inter-relationships,
-  gross, functional and applied anatomy of the musculoskeletal system, locomotion,
-  posture, gait and various organs in the body.</p></li><li><p>Comprehend the basic
-  structure and connections between the various parts of the central nervous system
-  so as to analyze the integrative and regulative functions of the organs and systems.
-  He/She should be able to locate the site of gross lesions according to the deficits
-  encountered.</p></li><li><p>Identify the microscopic structures of various tissues
-  and organs in the human body and correlate the structure with the functions.</p></li></ul>"
+course_outcomes: "<p>NA</p>"
 career_opportunities: "<p>A few job positions that the students can consider after
   the completion of the course are</p><ul><li><p>Assistant Physiotherapist</p></li><li><p>Research
   Assistant</p></li><li><p>Orthopaedic Assistant</p></li></ul>"

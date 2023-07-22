@@ -18,15 +18,7 @@ eligibility: "<p>The students are required to fulfil the following criteria for 
 admission_fee: '29,000'
 per_semester_fee: '30,000'
 total_fee: '1,50,000'
-course_outcomes: "<p>After the completion of this course the student:</p><ul><li><p>Is
-  professionally competent to meet the health needs of the individual and the community.</p></li><li><p>Is
-  skilful in providing quality nursing care based on problem solving approach.</p></li><li><p>Is
-  capable of practising and guiding others to render a high standard of nursing care.</p></li><li><p>Is
-  able to demonstrate responsibility &amp; accountability in promoting the standards
-  of nursing service.</p></li><li><p>Is competent to function as an effective health
-  team member.</p></li><li><p>Is able to assume greater responsibilities and leadership
-  in various health care settings.</p></li><li><p>Is seeking opportunities for continual
-  growth &amp; self evaluation as a person, citizen and a professional.</p></li></ul>"
+course_outcomes: "<ul><li><p>Class 10 & Class 12 Marksheet,</p></li><li><p>Class 10 & Class 12 Passing Certificate,</p></li><li><p>Transfer Certificate,</p></li><li><p>Caste Certificate (if applicable),</p></li><li><p>Medical Certificate (if applicable),</p></li><li><p>Migration Certificate (if applicable),</p></li><li><p>Valid Photo Identity Proof(Aadhar/ Voter ID/ Passport),</p></li><li><p>8 recent Passport Size Photographs,</p></li><li><p>Active Mobile No. and Email Address</p></li></ul>"
 career_opportunities: "<p>A few job positions that the students can consider after
   the completion of the course are:</p><ul><li><p>Basic Community Health Worker</p></li><li><p>Certified
   Nursing Assistant</p></li><li><p>Midwifery</p></li><li><p>Home Nurse</p></li><li><p>ICU

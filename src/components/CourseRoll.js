@@ -23,11 +23,11 @@ class CourseRollTemplate extends React.Component {
                   // console.log("slug", slug)
                   return <div key={index} className="col-xxl-4 col-xl-4 col-lg-6 col-md-6">
                     <div className="course__item white-bg transition-3 mb-30">
-                      <div className="course__thumb w-img fix course_thumb_height">
+                      {/*<div className="course__thumb w-img fix course_thumb_height">
                         <Link to={slug}>
                             <img src="https://via.placeholder.com/318x230/AEAEAE" alt="" />
                         </Link>
-                      </div>
+                      </div>*/}
                       <div className="course__content p-relative">
                         {/*<div className="course__price">
                           <span>${price}</span>

@@ -47,9 +47,9 @@ const CourseArea = ({data}) => {
                               <div className="category__list">
                                  <ul>
                                     <li>Duration: {duration_phrase ? duration_phrase : duration}</li>
-                                    <li>Seats Available: {seats}</li>
-                                    <li>Admission Fee: Rs {admission_fee}</li>
-                                    <li>Per Semester Fee: Rs {per_semester_fee}</li>
+                                    {/*<li>Seats Available: {seats}</li>*/}
+                                    {/*<li>Admission Fee: Rs {admission_fee}</li>*/}
+                                    {/*<li>Per Semester Fee: Rs {per_semester_fee}</li>*/}
                                  </ul>
                               </div>
                               <div className="category__btn-3">

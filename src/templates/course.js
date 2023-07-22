@@ -315,7 +315,7 @@ export const CourseTemplate = ({
                   </div>
                   <div className="course__video-meta mb-25 d-flex align-items-center justify-content-between">
                     <div className="course__video-price">
-                      <h6>Amenities:</h6>
+                      <h6>Hostel Amenities:</h6>
                       <ul>
                         <li>* One bed per student with necessities like Almira, Table, Ro water, 24-hour Electricity, Study table, etc.</li>
                         <li>* Hostel warden to maintain discipline.</li>
